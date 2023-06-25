@@ -1,0 +1,1 @@
+var electronRemote = require("@electron/remote");

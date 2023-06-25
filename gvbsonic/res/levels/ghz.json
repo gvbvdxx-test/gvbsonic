@@ -1,0 +1,428 @@
+{
+	"tiles": [
+		{
+			"x": -256,
+			"y": 0,
+			"type": "tile",
+			"id": 45,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"type": "tile",
+			"id": 45,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 256,
+			"y": 0,
+			"type": "tile",
+			"id": 45,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 15,
+			"y": 10,
+			"type": "ring",
+			"id": 14,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 45,
+			"y": 10,
+			"type": "ring",
+			"id": 14,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 75,
+			"y": 10,
+			"type": "ring",
+			"id": 14,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 512,
+			"y": 0,
+			"type": "tile",
+			"id": 49,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 768,
+			"y": 0,
+			"type": "tile",
+			"id": 48,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 610,
+			"y": 0,
+			"type": "motobug",
+			"id": 30,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 460,
+			"y": 50,
+			"type": "monitor-ring",
+			"id": 43,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 690,
+			"y": 80,
+			"type": "springRed",
+			"id": 42,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 690,
+			"y": 155,
+			"type": "ring",
+			"id": 14,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 690,
+			"y": 190,
+			"type": "ring",
+			"id": 14,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 690,
+			"y": 225,
+			"type": "ring",
+			"id": 14,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 690,
+			"y": 260,
+			"type": "ring",
+			"id": 14,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 690,
+			"y": 295,
+			"type": "ring",
+			"id": 14,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 690,
+			"y": 330,
+			"type": "ring",
+			"id": 14,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 1280,
+			"y": 0,
+			"type": "tile",
+			"id": 51,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 1536,
+			"y": 0,
+			"type": "tile",
+			"id": 50,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 1792,
+			"y": 0,
+			"type": "tile",
+			"id": 52,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 945,
+			"y": 75,
+			"type": "ring",
+			"id": 14,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 975,
+			"y": 75,
+			"type": "ring",
+			"id": 14,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 1005,
+			"y": 75,
+			"type": "ring",
+			"id": 14,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 1035,
+			"y": 75,
+			"type": "ring",
+			"id": 14,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 1555,
+			"y": -10,
+			"type": "ring",
+			"id": 14,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 1590,
+			"y": -30,
+			"type": "ring",
+			"id": 14,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 1630,
+			"y": -45,
+			"type": "ring",
+			"id": 14,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 1675,
+			"y": -50,
+			"type": "ring",
+			"id": 14,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 1720,
+			"y": -40,
+			"type": "ring",
+			"id": 14,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 1750,
+			"y": -15,
+			"type": "ring",
+			"id": 14,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 1520,
+			"y": 5,
+			"type": "ring",
+			"id": 14,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": -256,
+			"y": -256,
+			"type": "tile",
+			"id": 46,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": -256,
+			"y": -512,
+			"type": "tile",
+			"id": 46,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 0,
+			"y": -512,
+			"type": "tile",
+			"id": 46,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 0,
+			"y": -256,
+			"type": "tile",
+			"id": 46,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 256,
+			"y": -256,
+			"type": "tile",
+			"id": 46,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 256,
+			"y": -512,
+			"type": "tile",
+			"id": 46,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 512,
+			"y": -512,
+			"type": "tile",
+			"id": 46,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 512,
+			"y": -256,
+			"type": "tile",
+			"id": 46,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 768,
+			"y": -256,
+			"type": "tile",
+			"id": 46,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 768,
+			"y": -512,
+			"type": "tile",
+			"id": 46,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 1280,
+			"y": -256,
+			"type": "tile",
+			"id": 46,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 1280,
+			"y": -512,
+			"type": "tile",
+			"id": 46,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 1536,
+			"y": -512,
+			"type": "tile",
+			"id": 46,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 1536,
+			"y": -256,
+			"type": "tile",
+			"id": 46,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 1792,
+			"y": -256,
+			"type": "tile",
+			"id": 46,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 1792,
+			"y": -512,
+			"type": "tile",
+			"id": 46,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 2048,
+			"y": 0,
+			"type": "tile",
+			"id": 53,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 2048,
+			"y": -256,
+			"type": "tile",
+			"id": 46,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 2048,
+			"y": -512,
+			"type": "tile",
+			"id": 46,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 2304,
+			"y": 0,
+			"type": "tile",
+			"id": 54,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 2304,
+			"y": -256,
+			"type": "tile",
+			"id": 46,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 2304,
+			"y": -512,
+			"type": "tile",
+			"id": 46,
+			"layer": 0,
+			"text": null
+		}
+	]
+}

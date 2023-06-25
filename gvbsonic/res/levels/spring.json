@@ -1,0 +1,68 @@
+{
+	"tiles": [
+		{
+			"x": 95,
+			"y": -55,
+			"type": "springRed",
+			"id": 42,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 260,
+			"y": -55,
+			"type": "springRed",
+			"id": 42,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 170,
+			"y": 0,
+			"type": "springRed",
+			"id": 42,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": -128,
+			"y": -128,
+			"type": "tile",
+			"id": 1,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 0,
+			"y": -128,
+			"type": "tile",
+			"id": 1,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 128,
+			"y": -128,
+			"type": "tile",
+			"id": 1,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 256,
+			"y": -128,
+			"type": "tile",
+			"id": 1,
+			"layer": 0,
+			"text": null
+		},
+		{
+			"x": 384,
+			"y": -128,
+			"type": "tile",
+			"id": 1,
+			"layer": 0,
+			"text": null
+		}
+	]
+}

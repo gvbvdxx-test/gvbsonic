@@ -1,0 +1,23 @@
+{
+  "name": "gvbsonic",
+  "version": "1.0.0",
+  "description": "Gvbvdxx Sonic Engine",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron .",
+    "build": "electron-builder --dir --ia32",
+	"static": "http-server ./gvbsonic"
+  },
+  "author": "gvbvdxx",
+  "license": "ISC",
+  "dependencies": {
+    "@electron/remote": "^2.0.10",
+    "http": "^0.0.1-security",
+    "http-server": "^14.1.1",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "electron": "^25.2.0",
+    "electron-builder": "^24.4.0"
+  }
+}

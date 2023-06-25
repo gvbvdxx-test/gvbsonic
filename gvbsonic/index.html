@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="icon"
+      href="favicon.bmp"
+    />
+    <title>Gvbvdxx Sonic Engine</title>
+  </head>
+  <body style="background: black; color: white; font-family: arial">
+    <noscript>Your browser is not running javascript, please enable javascript to play this game.</noscript>
+    <style>
+      .loadprog {
+        width:100%;
+        height:50px;
+      }
+    </style>
+    <div
+      id="loading"
+      style="
+        width: 600px;
+        height: 600px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-left: -300px;
+        margin-top: -150px;
+             overflow:hidden;
+			 line-height:300px;
+      "
+         
+    >
+      <h1 style="text-align: center;line-height:auto;" id="loadingtext" hidden>Loading Assets</h1>
+      
+    </div>
+	<b id="filescount" hidden></b><br>
+      <b hidden>Advanced info:</b><input hidden type="checkbox" onchange="document.getElementById('fileinfo').hidden = !this.checked;"><br>
+      <div value=""  hidden style="background:yellow;color:black;width:100%;height:200px;overflow-y:scroll;overflow-x:hidden;" hidden  id="fileinfo"></div>
+    
+    <div id="app" hidden>
+      <canvas id="canvas" style="position:fixed;top:0;left:50%;cursor:none;" width="600" height="360">
+      OOPS! there seems to be a problem with your browser, eighter it is outdated, or you need to update it to a recent version.
+      </canvas>
+    </div>
+    <script>window.filesloaded = 0;var floaded = document.getElementById("filescount");setInterval(() => {floaded.innerHTML = `<div>${window.filesloaded} files loaded.<br></div><progress hidden class="loadprog" max="61" value="${window.filesloaded}"></progress>`;},1)</script>
+    <script src="src/decode-audio-data-fast.js?n=1"></script>
+    <script src="src/gvbvdxx-renderer.js?n=1"></script>
+    <script src="src/runtime.js?n=1"></script>
+    <script src="src/audio.js?n=1"></script>
+    <script src="src/tiles.js?n=1"></script>
+    <script src="src/index.js?n=1"></script>
+    <script src="src/title.js?n=1"></script>
+    <script src="src/level.js?n=1"></script>
+    <script src="src/levels.js?n=1"></script>
+	<script src="src/menu.js?n=1"></script>
+    <script src="res/characters/sonic.js?n=1"></script>
+    <script src="res/characters/tails.js?n=1"></script>
+    <script src="res/characters/newsonic.js?n=1"></script>
+    <script src="res/characters/maniasonic.js?n=1"></script>
+    <script src="res/characters/maniasonicanim.js?n=1"></script>
+	<script src="src/multiplayerloop.js?n=1"></script>
+    <script src="src/assets.js?n=1"></script>
+  </body>
+</html>

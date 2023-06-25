@@ -1,0 +1,28 @@
+{
+	"spriteSheetWidth": 161,
+	"spriteSheetHeight": 33,
+  
+	"sprites": [
+		{
+			"x": 43,
+			"y": 0,
+			"width": 28,
+			"height": 32,
+			"name": "spring2.png"
+		},
+		{
+			"x": 89,
+			"y": 0,
+			"width": 30,
+			"height": 25,
+			"name": "spring3.png"
+		},
+		{
+			"x": 132,
+			"y": 0,
+			"width": 28,
+			"height": 16,
+			"name": "spring1.png"
+		}
+	]
+}

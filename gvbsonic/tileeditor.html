@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="icon"
+      href="favicon.png"
+    />
+    <title>Tile editor | Gvbvdxx JS Sonic Engine</title>
+  </head>
+  <body style="font-family: arial;">
+    <center>
+      <!--<iframe src="index.html" style="border:none;width:600px;height:360px;"></iframe>-->
+      <h1>Tile editor</h1>
+      <p id="loadings">Please wait... this might take a second...</p>
+      <input type="file" id="lfile" hidden>
+      <textarea id="exporttext"></textarea><br>
+      <button id="savetext">
+        Save (Textarea)
+      </button><button id="save">
+        Save
+      </button><button id="load" onclick="document.getElementById('lfile').click();">
+        Load
+      </button><br>
+      <b>Load from SRC:</b><input type="text" id="url"><button id="loadfromurl">Load URL!</button><br><br>
+      <canvas id="editor" width="600" height="360" style="width:600px;height:360px;background:white;border-style:solid;border-color:black;border-width:1px;resize:none;"></canvas><br>
+      <textarea hidden id="data"></textarea><br>
+      <b>Text value :</b><input type="text" id="textvalue"><br>
+      <p id="tileinfo"></p>
+      <b>Controls:</b>
+      <p>Z: Change id up</p>
+      <p>X: Change id down</p>
+      <p>Arrow Keys: Scroll camrea</p>
+      <p>Space bar: Add tile/object to level</p>
+      <p>C: Delete the selected tile</p>
+      </center>
+    <script src="src/gvbvdxx-renderer.js?n=1"></script>
+    <script src="src/tiles.js?n=1"></script>
+    <script src="editor/index.js"></script>
+  </body>
+</html>
