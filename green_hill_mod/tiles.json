@@ -1,0 +1,209 @@
+[
+	
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Ring",
+			"path":"res/items/ring.png"
+		}
+	},
+	
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Level exit",
+			"path":"res/items/goals/signpost-empty.png"
+		}
+	},
+	
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Ring Monitor",
+			"path":"res/items/monitor/monitor.png"
+		}
+	},
+	
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Eggman Monitor",
+			"path":"res/items/monitor/monitor.png"
+		}
+	},
+	
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Switch layer to 1",
+			"path":null
+		}
+	},
+	
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Switch layer to 2",
+			"path":null
+		}
+	},
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Spring",
+			"path":"res/items/spring/red.png"
+		}
+	},
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Motobug",
+			"path":"res/enimies/motobug.png"
+		}
+	},
+	
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Collapsing Ledge 0",
+			"path":"res/tiles/collapsing_ledge.png",
+			"disableCollision":true
+		}
+	},
+	
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Collapsing Ledge 1",
+			"path":"res/tiles/collapsing_ledge2.png",
+			"disableCollision":true
+		}
+	},
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Bridge",
+			"path":"res/tiles/bridge.png",
+			"disableCollision":true
+		}
+	},
+	
+	
+  {
+		"addingMethod":"single",
+		"tile": {
+			"id":"Collision Tile 0",
+			"path":"res/tiles/collision_tile0.png"
+		}
+	},
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Collision Tile 1",
+			"path":"res/tiles/collision_tile1.png"
+		}
+	},
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Collision Tile 2",
+			"path":"res/tiles/collision_tile2.png"
+		}
+	},
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Collision Tile 3",
+			"path":"res/tiles/collision_tile3.png"
+		}
+	},
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Collision Tile 4",
+			"path":"res/tiles/collision_tile4.png"
+		}
+	},
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Collision Tile 5",
+			"path":"res/tiles/collision_tile5.png"
+		}
+	},
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Collision Tile 6",
+			"path":"res/tiles/collision_tile6.png"
+		}
+	},
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Collision Tile 7",
+			"path":"res/tiles/collision_tile7.png"
+		}
+	},
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Collision Tile 8",
+			"path":"res/tiles/collision_tile8.png"
+		}
+	},
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Collision Tile 9",
+			"path":"res/tiles/collision_tile9.png"
+		}
+	},
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Collision Tile 10",
+			"path":"res/tiles/collision_tile10.png"
+		}
+	},
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Collision Tile 11",
+			"path":"res/tiles/collision_tile11.png"
+		}
+	},
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Collision Tile 12",
+			"path":"res/tiles/collision_tile12.png"
+		}
+	},
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Collision Tile 13",
+			"path":"res/tiles/collision_tile13.png"
+		}
+	},
+	
+  {
+		"addingMethod":"multiple",
+		"pathStart":"res/tiles/ghz/ghz_",
+		"pathEnd":".png",
+		"idPrefix":"Green Hill Zone Tile ",
+		"amount":54,
+		"startNum":1,
+    "disableCollision":true
+	},
+	
+	{
+		"addingMethod":"multiple",
+		"pathStart":"res/tiles/TemplateZone/templatezone_",
+		"pathEnd":".png",
+		"idPrefix":"Template zone tile ",
+		"amount":70,
+		"startNum":0
+	}
+]

@@ -1,0 +1,83 @@
+{
+	"spriteSheetWidth": 737,
+	"spriteSheetHeight": 162,
+	"sprites": [
+		{
+			"x": 85,
+			"y": 0,
+			"width": 56,
+			"height": 64,
+			"name": "bubble.png"
+		},
+		{
+			"x": 170,
+			"y": 0,
+			"width": 56,
+			"height": 64,
+			"name": "invincible.png"
+		},
+		{
+			"x": 255,
+			"y": 0,
+			"width": 56,
+			"height": 64,
+			"name": "super.png"
+		},
+		{
+			"x": 340,
+			"y": 0,
+			"width": 56,
+			"height": 64,
+			"name": "1up.png"
+		},
+		{
+			"x": 425,
+			"y": 0,
+			"width": 56,
+			"height": 64,
+			"name": "eggman.png"
+		},
+		{
+			"x": 510,
+			"y": 0,
+			"width": 56,
+			"height": 64,
+			"name": "fire.png"
+		},
+		{
+			"x": 595,
+			"y": 0,
+			"width": 56,
+			"height": 64,
+			"name": "bolt.png"
+		},
+		{
+			"x": 680,
+			"y": 0,
+			"width": 56,
+			"height": 64,
+			"name": "shoes.png"
+		},
+		{
+			"x": 28,
+			"y": 97,
+			"width": 56,
+			"height": 64,
+			"name": "ring.png"
+		},
+		{
+			"x": 113,
+			"y": 97,
+			"width": 56,
+			"height": 64,
+			"name": "broken.png"
+		},
+		{
+			"x": 198,
+			"y": 97,
+			"width": 56,
+			"height": 64,
+			"name": "normal.png"
+		}
+	]
+}

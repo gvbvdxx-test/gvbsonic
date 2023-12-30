@@ -1,0 +1,22 @@
+{
+	"spriteSheetWidth": 323,
+	"spriteSheetHeight": 190,
+	"sprites": [
+		{
+			"x": 0,
+			"y": 0,
+			"width": 106,
+			"height": 189,
+			"name": "doorclosed.png",
+			"image": {}
+		},
+		{
+			"x": 107,
+			"y": 0,
+			"width": 107,
+			"height": 189,
+			"name": "dooropen.png",
+			"image": {}
+		}
+	]
+}

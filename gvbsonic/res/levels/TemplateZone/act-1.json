@@ -1,0 +1,5579 @@
+{
+	"disableYLock": true,
+	"background": "greyGrid",
+	"BGM": "Template_zone",
+	"title": "Template Zone Act 1",
+	"tiles": [
+		{
+			"x": -256,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -128,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 128,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 256,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -256,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -128,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 0,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 128,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 256,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 384,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 512,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 512,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 384,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 256,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 768,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 5",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 896,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 5",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1024,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 5",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1152,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 5",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1280,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 5",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1408,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 5",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1536,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 5",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1664,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1664,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1664,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1792,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2048,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1920,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1792,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1920,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2048,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2048,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1920,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1792,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1664,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1792,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1920,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2048,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1320,
+			"y": -84,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1368,
+			"y": -44,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1416,
+			"y": -4,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1464,
+			"y": 36,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1512,
+			"y": 76,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1560,
+			"y": 116,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2176,
+			"y": 128,
+			"type": "tile",
+			"id": "Template zone tile 43",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2048,
+			"y": 128,
+			"type": "tile",
+			"id": "Template zone tile 42",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2176,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2304,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2432,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2560,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2688,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2176,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2304,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2432,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2560,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2688,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2688,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2560,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2432,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2304,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2176,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2560,
+			"y": 256,
+			"type": "tile",
+			"id": "Template zone tile 39",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2432,
+			"y": 256,
+			"type": "tile",
+			"id": "Template zone tile 38",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2560,
+			"y": 128,
+			"type": "tile",
+			"id": "Template zone tile 43",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2432,
+			"y": 128,
+			"type": "tile",
+			"id": "Template zone tile 42",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2176,
+			"y": 256,
+			"type": "tile",
+			"id": "Template zone tile 39",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2048,
+			"y": 256,
+			"type": "tile",
+			"id": "Template zone tile 38",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1964,
+			"y": 88,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1964,
+			"y": 128,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1964,
+			"y": 168,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1964,
+			"y": 208,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1964,
+			"y": 248,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1964,
+			"y": 288,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1964,
+			"y": 328,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2264,
+			"y": 96,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2264,
+			"y": 136,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2264,
+			"y": 176,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2264,
+			"y": 336,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2068,
+			"y": 260,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2160,
+			"y": 260,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2348,
+			"y": 92,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2348,
+			"y": 132,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2348,
+			"y": 172,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2348,
+			"y": 252,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2348,
+			"y": 292,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2652,
+			"y": 96,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2652,
+			"y": 136,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2652,
+			"y": 176,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2652,
+			"y": 216,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2652,
+			"y": 256,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2652,
+			"y": 296,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2460,
+			"y": 256,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2536,
+			"y": 256,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2816,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2816,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2944,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3072,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3200,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3328,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3456,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3456,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3328,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3200,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3072,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2944,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2816,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3328,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3456,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3584,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3584,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3840,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3968,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4352,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3584,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3712,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3840,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3968,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4096,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4224,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4352,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4480,
+			"y": -320,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4480,
+			"y": -448,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5888,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6016,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6784,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 33",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6784,
+			"y": -512,
+			"type": "tile",
+			"id": "Template zone tile 33",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6784,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 33",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6784,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 33",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6784,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 33",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6784,
+			"y": 128,
+			"type": "tile",
+			"id": "Template zone tile 33",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6144,
+			"y": 128,
+			"type": "tile",
+			"id": "Template zone tile 33",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6144,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 33",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6144,
+			"y": 256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6272,
+			"y": 256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6400,
+			"y": 256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6528,
+			"y": 256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6656,
+			"y": 256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6784,
+			"y": 256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6656,
+			"y": -512,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6400,
+			"y": -512,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6528,
+			"y": -512,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6144,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6272,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6400,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5760,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5760,
+			"y": -896,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5760,
+			"y": -768,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5760,
+			"y": -640,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5760,
+			"y": -512,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5760,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5760,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5632,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5632,
+			"y": -896,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5632,
+			"y": -768,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5632,
+			"y": -640,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5632,
+			"y": -512,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5632,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5504,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5504,
+			"y": -512,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5504,
+			"y": -640,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5504,
+			"y": -768,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5504,
+			"y": -896,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5504,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5504,
+			"y": -1152,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6528,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6656,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6784,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6912,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7040,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7168,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7296,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5760,
+			"y": -1152,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5888,
+			"y": -1152,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6144,
+			"y": -1152,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6272,
+			"y": -1152,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6400,
+			"y": -1152,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6528,
+			"y": -1152,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6656,
+			"y": -1152,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6656,
+			"y": -1152,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6784,
+			"y": -1152,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6912,
+			"y": -1152,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7040,
+			"y": -1152,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7168,
+			"y": -1152,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7296,
+			"y": -1152,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7424,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7552,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7680,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7808,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7936,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8064,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8192,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8320,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8448,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7808,
+			"y": -936,
+			"type": "sign",
+			"id": "Level exit",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1168,
+			"y": -192,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 135
+		},
+		{
+			"x": 1536,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 11",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2944,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 18",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3200,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 17",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3072,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2000,
+			"y": 336,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 384,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 512,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 640,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 588,
+			"y": -184,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4096,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4224,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4096,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4224,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5376,
+			"y": -292,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5504,
+			"y": -292,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5632,
+			"y": -292,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5376,
+			"y": -420,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5248,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5120,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4992,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4864,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4736,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4608,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5760,
+			"y": -1280,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5760,
+			"y": -1408,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5888,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6016,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 3,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6016,
+			"y": -1152,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 3,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5888,
+			"y": -1280,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 3,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6144,
+			"y": -1280,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 3,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6016,
+			"y": -1280,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 3,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6272,
+			"y": -1280,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 3,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6400,
+			"y": -1280,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 3,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6656,
+			"y": -1280,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 3,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6528,
+			"y": -1280,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 3,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5760,
+			"y": -1536,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5760,
+			"y": -1664,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5888,
+			"y": -1664,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6016,
+			"y": -1664,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6144,
+			"y": -1664,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6272,
+			"y": -1664,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6400,
+			"y": -1664,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6528,
+			"y": -1664,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6656,
+			"y": -1664,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5840,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5868,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5896,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5924,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5952,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5980,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6008,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6036,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6064,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6064,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6064,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6064,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6064,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6064,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6064,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6064,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6064,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6064,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6064,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6036,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6036,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6036,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6036,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6036,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6036,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6036,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5840,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5840,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5840,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5840,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5840,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5840,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5840,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5868,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5868,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5868,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5868,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5868,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5868,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5896,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5896,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5896,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5896,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5896,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5896,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5924,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5924,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5924,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5924,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5924,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5952,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5952,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5952,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5952,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5980,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5980,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5980,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5980,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5980,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6008,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6008,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6008,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6036,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6036,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6036,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6036,
+			"y": -1584,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6784,
+			"y": -1664,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6912,
+			"y": -1664,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7040,
+			"y": -1664,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7168,
+			"y": -1664,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7296,
+			"y": -1664,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7424,
+			"y": -1664,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7552,
+			"y": -1664,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6912,
+			"y": -1792,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7040,
+			"y": -1792,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7168,
+			"y": -1792,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7296,
+			"y": -1792,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7424,
+			"y": -1792,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6784,
+			"y": -1792,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6656,
+			"y": -1792,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6528,
+			"y": -1792,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6400,
+			"y": -1792,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6272,
+			"y": -1792,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6144,
+			"y": -1792,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6016,
+			"y": -1792,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5888,
+			"y": -1792,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5760,
+			"y": -1792,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5760,
+			"y": -1920,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5888,
+			"y": -1920,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6016,
+			"y": -1920,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6144,
+			"y": -1920,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6272,
+			"y": -1920,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6400,
+			"y": -1920,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6528,
+			"y": -1920,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6656,
+			"y": -1920,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6784,
+			"y": -1920,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6912,
+			"y": -1920,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7040,
+			"y": -1920,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7168,
+			"y": -1920,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7296,
+			"y": -1920,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7552,
+			"y": -1920,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7552,
+			"y": -1792,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7424,
+			"y": -1920,
+			"type": "tile",
+			"id": "Template zone tile 69",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6272,
+			"y": -1536,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6656,
+			"y": -1536,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6344,
+			"y": -1576,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 180
+		},
+		{
+			"x": 6584,
+			"y": -1576,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 360
+		},
+		{
+			"x": 6192,
+			"y": -1532,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6176,
+			"y": -1532,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6160,
+			"y": -1532,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6144,
+			"y": -1532,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6128,
+			"y": -1532,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6112,
+			"y": -1532,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6096,
+			"y": -1532,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6096,
+			"y": -1548,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6096,
+			"y": -1564,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6096,
+			"y": -1580,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6112,
+			"y": -1564,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6112,
+			"y": -1548,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6128,
+			"y": -1548,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6128,
+			"y": -1564,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6112,
+			"y": -1580,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6128,
+			"y": -1580,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6144,
+			"y": -1580,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6144,
+			"y": -1564,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6144,
+			"y": -1548,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6160,
+			"y": -1548,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6160,
+			"y": -1564,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6160,
+			"y": -1580,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6176,
+			"y": -1564,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6176,
+			"y": -1548,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6192,
+			"y": -1548,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6192,
+			"y": -1564,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6192,
+			"y": -1580,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6176,
+			"y": -1580,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6224,
+			"y": -1456,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6320,
+			"y": -1456,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6384,
+			"y": -1492,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6404,
+			"y": -1492,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6424,
+			"y": -1492,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6444,
+			"y": -1492,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6464,
+			"y": -1492,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6484,
+			"y": -1492,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6504,
+			"y": -1492,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6524,
+			"y": -1492,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6544,
+			"y": -1492,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6384,
+			"y": -1520,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6404,
+			"y": -1520,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6424,
+			"y": -1520,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6444,
+			"y": -1520,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6464,
+			"y": -1520,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6484,
+			"y": -1520,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6504,
+			"y": -1520,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6524,
+			"y": -1520,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6544,
+			"y": -1520,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6384,
+			"y": -1548,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6404,
+			"y": -1548,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6424,
+			"y": -1548,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6444,
+			"y": -1548,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6464,
+			"y": -1548,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6484,
+			"y": -1548,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6504,
+			"y": -1548,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6524,
+			"y": -1548,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6544,
+			"y": -1548,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6384,
+			"y": -1576,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6404,
+			"y": -1576,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6424,
+			"y": -1576,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6444,
+			"y": -1576,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6464,
+			"y": -1576,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6484,
+			"y": -1576,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6504,
+			"y": -1576,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6524,
+			"y": -1576,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6544,
+			"y": -1576,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5964,
+			"y": -1224,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 5992,
+			"y": -1224,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6020,
+			"y": -1224,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6048,
+			"y": -1224,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6072,
+			"y": -1224,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 5964,
+			"y": -1240,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 5992,
+			"y": -1240,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6020,
+			"y": -1240,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6044,
+			"y": -1240,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6072,
+			"y": -1240,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6072,
+			"y": -1256,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6044,
+			"y": -1256,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6016,
+			"y": -1256,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 5988,
+			"y": -1256,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 5964,
+			"y": -1256,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 5964,
+			"y": -1272,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 5988,
+			"y": -1272,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6016,
+			"y": -1272,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6044,
+			"y": -1272,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6072,
+			"y": -1272,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6072,
+			"y": -1288,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6044,
+			"y": -1288,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6020,
+			"y": -1288,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 5992,
+			"y": -1288,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 5964,
+			"y": -1288,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 5964,
+			"y": -1304,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 5992,
+			"y": -1304,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6020,
+			"y": -1304,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6044,
+			"y": -1304,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6072,
+			"y": -1304,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 5964,
+			"y": -1320,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 5992,
+			"y": -1320,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6020,
+			"y": -1320,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6044,
+			"y": -1320,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6072,
+			"y": -1320,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 5964,
+			"y": -1336,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 5992,
+			"y": -1336,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6020,
+			"y": -1336,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6044,
+			"y": -1336,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6072,
+			"y": -1336,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 8576,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8576,
+			"y": -896,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8576,
+			"y": -768,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8576,
+			"y": -640,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8576,
+			"y": -512,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6912,
+			"y": -512,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7040,
+			"y": -512,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7168,
+			"y": -512,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7296,
+			"y": -512,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7424,
+			"y": -512,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7552,
+			"y": -512,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7680,
+			"y": -512,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7936,
+			"y": -512,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7808,
+			"y": -512,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8192,
+			"y": -512,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8064,
+			"y": -512,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8320,
+			"y": -512,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8448,
+			"y": -512,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8576,
+			"y": -1152,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8576,
+			"y": -1280,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8576,
+			"y": -1408,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8576,
+			"y": -1536,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8576,
+			"y": -1792,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8576,
+			"y": -1920,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7680,
+			"y": -1664,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7808,
+			"y": -1664,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7936,
+			"y": -1664,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8064,
+			"y": -1664,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8192,
+			"y": -1664,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8320,
+			"y": -1664,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8448,
+			"y": -1664,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8448,
+			"y": -1792,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8320,
+			"y": -1792,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8192,
+			"y": -1792,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8064,
+			"y": -1792,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7936,
+			"y": -1792,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7808,
+			"y": -1792,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7680,
+			"y": -1792,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7680,
+			"y": -1920,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7936,
+			"y": -1920,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7808,
+			"y": -1920,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8064,
+			"y": -1920,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8192,
+			"y": -1920,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8320,
+			"y": -1920,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8448,
+			"y": -1920,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6912,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6912,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6912,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6912,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6912,
+			"y": 128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7040,
+			"y": 128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7168,
+			"y": 128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7040,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7040,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7040,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7040,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7168,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7168,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7168,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7168,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7296,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7296,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7424,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7552,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7680,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7808,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8064,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7936,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8192,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8320,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8448,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8704,
+			"y": -512,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8704,
+			"y": -640,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8704,
+			"y": -768,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8704,
+			"y": -896,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8704,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8704,
+			"y": -1152,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8704,
+			"y": -1280,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8704,
+			"y": -1408,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8704,
+			"y": -1536,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8704,
+			"y": -1664,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8704,
+			"y": -1792,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8704,
+			"y": -1920,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8576,
+			"y": -1664,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8576,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8448,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8320,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8192,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8064,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7936,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7808,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7680,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7552,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7424,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7296,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6912,
+			"y": 256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7040,
+			"y": 256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7168,
+			"y": 256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8704,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8576,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 8704,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6700,
+			"y": 176,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6660,
+			"y": 176,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6620,
+			"y": 176,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6580,
+			"y": 176,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6540,
+			"y": 176,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6500,
+			"y": 176,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6460,
+			"y": 176,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6420,
+			"y": 176,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6380,
+			"y": 176,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6340,
+			"y": 176,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6300,
+			"y": 176,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6260,
+			"y": 176,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 6228,
+			"y": 176,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 3712,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 640,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 512,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 256,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 384,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1536,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 16",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1408,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 16",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1280,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 16",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1152,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 16",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1024,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 16",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 896,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 16",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 768,
+			"y": -384,
+			"type": "tile",
+			"id": "Template zone tile 16",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4480,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4992,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5120,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5248,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5376,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5504,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5632,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4864,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 17",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4608,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 18",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4736,
+			"y": -256,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2264,
+			"y": 296,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2264,
+			"y": 256,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2264,
+			"y": 216,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2348,
+			"y": 212,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2608,
+			"y": 336,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3656,
+			"y": -80,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 180
+		},
+		{
+			"x": 3656,
+			"y": -112,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 180
+		},
+		{
+			"x": 3656,
+			"y": -144,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 180
+		},
+		{
+			"x": 3656,
+			"y": -176,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 180
+		},
+		{
+			"x": 3968,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 11",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4352,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 10",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4592,
+			"y": -128,
+			"type": "motobug",
+			"id": "Motobug",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4700,
+			"y": -128,
+			"type": "motobug",
+			"id": "Motobug",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3584,
+			"y": -64,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4096,
+			"y": -60,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4224,
+			"y": -60,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6016,
+			"y": -1024,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6016,
+			"y": -1152,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6016,
+			"y": -640,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5888,
+			"y": -640,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6144,
+			"y": -896,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6016,
+			"y": -896,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5888,
+			"y": -896,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5888,
+			"y": -768,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6016,
+			"y": -768,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6228,
+			"y": -952,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2076,
+			"y": 384,
+			"type": "motobug",
+			"id": "Motobug",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2424,
+			"y": 384,
+			"type": "motobug",
+			"id": "Motobug",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 780,
+			"y": -128,
+			"type": "motobug",
+			"id": "Motobug",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 884,
+			"y": -128,
+			"type": "motobug",
+			"id": "Motobug",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -260,
+			"y": 88,
+			"type": "spawn",
+			"id": "Spawn Point",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		}
+	]
+}

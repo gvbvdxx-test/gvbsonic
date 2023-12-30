@@ -1,0 +1,5597 @@
+{
+	"disableYLock": false,
+	"background": "defaultBlueBG",
+	"BGM": "IceCube_zone_1",
+	"title": "Ice Cube Zone Act 1",
+	"tiles": [
+		{
+			"x": 0,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 128,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 256,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 256,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 256,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 0,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 0,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -128,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -128,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -128,
+			"y": 512,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -256,
+			"y": 512,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -256,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -256,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -128,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 384,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -256,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -128,
+			"y": 640,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -256,
+			"y": 640,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 0,
+			"y": 640,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 128,
+			"y": 640,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 256,
+			"y": 640,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 384,
+			"y": 640,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 512,
+			"y": 640,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -48,
+			"y": 336,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 324,
+			"y": 256,
+			"type": "motobug",
+			"id": "Motobug",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1024,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 896,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1152,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1408,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1536,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1664,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 640,
+			"y": -180,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 512,
+			"y": -180,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 384,
+			"y": -180,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 336,
+			"y": -100,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 368,
+			"y": -100,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 336,
+			"y": -68,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 368,
+			"y": -68,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 336,
+			"y": -36,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 368,
+			"y": -36,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 512,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 640,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 704,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 548,
+			"y": -64,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 568,
+			"y": -64,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 588,
+			"y": -64,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 608,
+			"y": -64,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 628,
+			"y": -64,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 628,
+			"y": -44,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 608,
+			"y": -44,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 588,
+			"y": -44,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 568,
+			"y": -44,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 548,
+			"y": -44,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 548,
+			"y": -84,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 568,
+			"y": -84,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 588,
+			"y": -84,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 608,
+			"y": -84,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 628,
+			"y": -84,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1152,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1152,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 768,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1280,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 896,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1024,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1236,
+			"y": 176,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1272,
+			"y": 176,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1272,
+			"y": 212,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1272,
+			"y": 248,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1272,
+			"y": 284,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1272,
+			"y": 320,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1272,
+			"y": 356,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 812,
+			"y": 44,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 812,
+			"y": 8,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 812,
+			"y": -28,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 812,
+			"y": -64,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1024,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 896,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1308,
+			"y": 176,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1344,
+			"y": 176,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1344,
+			"y": 140,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1344,
+			"y": 104,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1344,
+			"y": 68,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1344,
+			"y": 32,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1344,
+			"y": -4,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1344,
+			"y": -40,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1344,
+			"y": -76,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2048,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 3",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1920,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 4",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2048,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1920,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 11",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2048,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 5",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1920,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 6",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2176,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1792,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2176,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2048,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1792,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1920,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1704,
+			"y": 48,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1704,
+			"y": 12,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1704,
+			"y": -24,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1704,
+			"y": -60,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1704,
+			"y": 84,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1704,
+			"y": 120,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1704,
+			"y": 156,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1704,
+			"y": 192,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1704,
+			"y": 228,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1704,
+			"y": 264,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1704,
+			"y": 300,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2176,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1792,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2176,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2260,
+			"y": 300,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2260,
+			"y": 264,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2260,
+			"y": 228,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2260,
+			"y": 192,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2260,
+			"y": 156,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2260,
+			"y": 120,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2260,
+			"y": 84,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2260,
+			"y": 48,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2260,
+			"y": 12,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2260,
+			"y": -24,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2260,
+			"y": -60,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2260,
+			"y": -96,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2260,
+			"y": -132,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2260,
+			"y": -168,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2304,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2432,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2944,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2560,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2560,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2688,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2688,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2688,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2816,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2816,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3072,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 5",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3328,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 6",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3200,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3072,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3328,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 11",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3200,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3456,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2044,
+			"y": 148,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1928,
+			"y": 148,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 512,
+			"y": 768,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 384,
+			"y": 768,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 256,
+			"y": 768,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 128,
+			"y": 768,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 0,
+			"y": 768,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -128,
+			"y": 768,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -128,
+			"y": 768,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -256,
+			"y": 768,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -284,
+			"y": 848,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -252,
+			"y": 848,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -220,
+			"y": 848,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -188,
+			"y": 848,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -156,
+			"y": 848,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -124,
+			"y": 848,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -92,
+			"y": 848,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -60,
+			"y": 848,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -28,
+			"y": 848,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4,
+			"y": 848,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 36,
+			"y": 848,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 68,
+			"y": 848,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 100,
+			"y": 848,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 132,
+			"y": 848,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 164,
+			"y": 848,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 196,
+			"y": 848,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 228,
+			"y": 848,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 260,
+			"y": 848,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 320,
+			"y": 896,
+			"type": "motobug",
+			"id": "Motobug",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 356,
+			"y": 896,
+			"type": "motobug",
+			"id": "Motobug",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 392,
+			"y": 896,
+			"type": "motobug",
+			"id": "Motobug",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 428,
+			"y": 896,
+			"type": "motobug",
+			"id": "Motobug",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 592,
+			"y": 712,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 620,
+			"y": 712,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 648,
+			"y": 712,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 676,
+			"y": 712,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 532,
+			"y": 904,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 548,
+			"y": 904,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 564,
+			"y": 904,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 580,
+			"y": 900,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 596,
+			"y": 888,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 608,
+			"y": 876,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 620,
+			"y": 860,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 620,
+			"y": 844,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 620,
+			"y": 828,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 620,
+			"y": 812,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 620,
+			"y": 796,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 620,
+			"y": 780,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 528,
+			"y": -44,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 528,
+			"y": -64,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 528,
+			"y": -84,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 508,
+			"y": -84,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 508,
+			"y": -64,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 508,
+			"y": -44,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 488,
+			"y": -44,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 488,
+			"y": -64,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 488,
+			"y": -84,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 468,
+			"y": -84,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 468,
+			"y": -64,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 468,
+			"y": -44,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 448,
+			"y": -44,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 448,
+			"y": -64,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 448,
+			"y": -84,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 428,
+			"y": -84,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 428,
+			"y": -64,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 428,
+			"y": -44,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 408,
+			"y": -44,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 408,
+			"y": -64,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 408,
+			"y": -84,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 648,
+			"y": -84,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 648,
+			"y": -64,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 648,
+			"y": -44,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 668,
+			"y": -84,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 668,
+			"y": -64,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 668,
+			"y": -44,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 328,
+			"y": -4,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 180
+		},
+		{
+			"x": 328,
+			"y": 28,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 180
+		},
+		{
+			"x": 2560,
+			"y": 72,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2812,
+			"y": 72,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1216,
+			"y": 192,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 135
+		},
+		{
+			"x": 1904,
+			"y": 336,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1992,
+			"y": 336,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1948,
+			"y": 340,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1928,
+			"y": 340,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1968,
+			"y": 340,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2016,
+			"y": 340,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2036,
+			"y": 340,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2056,
+			"y": 340,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2080,
+			"y": 336,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1880,
+			"y": 340,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1860,
+			"y": 340,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1840,
+			"y": 340,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2104,
+			"y": 340,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2124,
+			"y": 340,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2144,
+			"y": 340,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1544,
+			"y": 0,
+			"type": "motobug",
+			"id": "Motobug",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1448,
+			"y": 0,
+			"type": "motobug",
+			"id": "Motobug",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1632,
+			"y": 0,
+			"type": "motobug",
+			"id": "Motobug",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3584,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 5",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3840,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 6",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3712,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3712,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3584,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3712,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3840,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 11",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3840,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3968,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4096,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3968,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4096,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4224,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4224,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 12",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1792,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1792,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 640,
+			"y": 640,
+			"type": "tile",
+			"id": "Ice Tile 8",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 124,
+			"y": 16,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 124,
+			"y": -4,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 124,
+			"y": -24,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 124,
+			"y": 56,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 124,
+			"y": -56,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 124,
+			"y": 36,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 124,
+			"y": 76,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -256,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -256,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -128,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1948,
+			"y": 172,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1920,
+			"y": 152,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1888,
+			"y": 120,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2016,
+			"y": 172,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2044,
+			"y": 148,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2072,
+			"y": 120,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2092,
+			"y": 64,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1984,
+			"y": 180,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2088,
+			"y": 96,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1876,
+			"y": 92,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1876,
+			"y": 52,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2088,
+			"y": 36,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2072,
+			"y": 4,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2056,
+			"y": -16,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1888,
+			"y": 20,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1908,
+			"y": -4,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1928,
+			"y": -28,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1956,
+			"y": -44,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1988,
+			"y": -52,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2040,
+			"y": -28,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2016,
+			"y": -44,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1028,
+			"y": -4,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1048,
+			"y": -4,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1008,
+			"y": -4,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1264,
+			"y": 232,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1284,
+			"y": 248,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1304,
+			"y": 268,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1324,
+			"y": 288,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1344,
+			"y": 316,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1368,
+			"y": 340,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1396,
+			"y": 364,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1420,
+			"y": 388,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1460,
+			"y": 400,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1492,
+			"y": 404,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1536,
+			"y": 408,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1564,
+			"y": 408,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1592,
+			"y": 408,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1612,
+			"y": 404,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1632,
+			"y": 400,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1652,
+			"y": 392,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1680,
+			"y": 384,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1708,
+			"y": 376,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1736,
+			"y": 364,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1760,
+			"y": 348,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1788,
+			"y": 332,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1272,
+			"y": 392,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1272,
+			"y": 428,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1272,
+			"y": 464,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1272,
+			"y": 500,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1272,
+			"y": 536,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1272,
+			"y": 572,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1272,
+			"y": 608,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1272,
+			"y": 644,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1236,
+			"y": 644,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1200,
+			"y": 644,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1164,
+			"y": 644,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4608,
+			"y": 640,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4480,
+			"y": 640,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4480,
+			"y": 512,
+			"type": "tile",
+			"id": "Ice Tile 4",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4352,
+			"y": 640,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4352,
+			"y": 512,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4352,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4352,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4352,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4352,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4352,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4480,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4608,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4736,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4608,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4736,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4480,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 6",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4480,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 11",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4864,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 5",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5248,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 6",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4992,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5120,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4992,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5120,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4864,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 12",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5248,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 11",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4992,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5120,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4864,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4992,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5248,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5120,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4128,
+			"y": 84,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4128,
+			"y": 120,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4128,
+			"y": 156,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4128,
+			"y": 192,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4128,
+			"y": 228,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4128,
+			"y": 264,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4128,
+			"y": 300,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4128,
+			"y": 336,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4128,
+			"y": 372,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4128,
+			"y": 408,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4128,
+			"y": 444,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4128,
+			"y": 480,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4128,
+			"y": 516,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4128,
+			"y": 552,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4128,
+			"y": 588,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4128,
+			"y": 624,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4128,
+			"y": 660,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4128,
+			"y": 696,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4164,
+			"y": 696,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4200,
+			"y": 696,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4236,
+			"y": 696,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4272,
+			"y": 696,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4224,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 5",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4352,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4352,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4224,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 12",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4352,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 9",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4480,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4608,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4736,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4864,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 5",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4864,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 12",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4864,
+			"y": 512,
+			"type": "tile",
+			"id": "Ice Tile 3",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4992,
+			"y": 512,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4992,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4992,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4736,
+			"y": 640,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4864,
+			"y": 640,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4992,
+			"y": 640,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4608,
+			"y": 640,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4584,
+			"y": 552,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4548,
+			"y": 552,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4512,
+			"y": 544,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4480,
+			"y": 524,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4624,
+			"y": 552,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4480,
+			"y": 512,
+			"type": "tile",
+			"id": "Ice Tile 4",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4480,
+			"y": 640,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4352,
+			"y": 640,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4352,
+			"y": 512,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4664,
+			"y": 552,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4704,
+			"y": 552,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4744,
+			"y": 552,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4784,
+			"y": 552,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4824,
+			"y": 552,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4860,
+			"y": 532,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4888,
+			"y": 504,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4904,
+			"y": 464,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4904,
+			"y": 424,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5760,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5632,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5632,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5632,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5632,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5504,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5376,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5376,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5504,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 12",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5504,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 5",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5632,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 9",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5888,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6016,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6144,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5760,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5888,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6016,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6144,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6144,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6016,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5760,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5888,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5760,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5888,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6016,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6144,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6144,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6016,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5888,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5760,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4816,
+			"y": 336,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4844,
+			"y": 348,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4868,
+			"y": 364,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4888,
+			"y": 380,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4900,
+			"y": 400,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4908,
+			"y": 424,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4908,
+			"y": 448,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4908,
+			"y": 472,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4896,
+			"y": 492,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4880,
+			"y": 512,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4864,
+			"y": 536,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4840,
+			"y": 552,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4808,
+			"y": 560,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4780,
+			"y": 560,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4752,
+			"y": 560,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4724,
+			"y": 560,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4692,
+			"y": 560,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4652,
+			"y": 560,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4616,
+			"y": 560,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4432,
+			"y": 176,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4444,
+			"y": 152,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4456,
+			"y": 132,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4472,
+			"y": 112,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4488,
+			"y": 96,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4512,
+			"y": 84,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4536,
+			"y": 76,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4560,
+			"y": 76,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4584,
+			"y": 76,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4608,
+			"y": 76,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4816,
+			"y": 80,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4840,
+			"y": 88,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4864,
+			"y": 100,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4884,
+			"y": 116,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4900,
+			"y": 132,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4912,
+			"y": 152,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4916,
+			"y": 176,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 4916,
+			"y": 208,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5004,
+			"y": 368,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5028,
+			"y": 368,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5052,
+			"y": 368,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5076,
+			"y": 368,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5100,
+			"y": 368,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5548,
+			"y": 276,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5548,
+			"y": 252,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5548,
+			"y": 228,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5548,
+			"y": 204,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5548,
+			"y": 180,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5212,
+			"y": 284,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5212,
+			"y": 264,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5212,
+			"y": 244,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5212,
+			"y": 224,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5212,
+			"y": 204,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5212,
+			"y": 184,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5572,
+			"y": 408,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5592,
+			"y": 428,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5612,
+			"y": 448,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5744,
+			"y": 496,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5768,
+			"y": 496,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5792,
+			"y": 496,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6016,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6272,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6272,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6272,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6272,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6272,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6144,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6400,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6528,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6656,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6784,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6912,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7040,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7168,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7296,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7424,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7424,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7552,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7808,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7936,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7680,
+			"y": 384,
+			"type": "tile",
+			"id": "Ice Tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7936,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7936,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7936,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7936,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7808,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7808,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7808,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7808,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7680,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7680,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7680,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7680,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7552,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7552,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7552,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7552,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7424,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7424,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7424,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7424,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7424,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7296,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7296,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7296,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7296,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7296,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7168,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7168,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7168,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7168,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7040,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7040,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7040,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7040,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6912,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6912,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6912,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6912,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6784,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6784,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6784,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6784,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6656,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6656,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6656,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6656,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6528,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6528,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6528,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6528,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6400,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6400,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6400,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6400,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6272,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6272,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6272,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6272,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6144,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6144,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6144,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6144,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6016,
+			"y": -128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6016,
+			"y": 0,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6016,
+			"y": 128,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 6016,
+			"y": 256,
+			"type": "tile",
+			"id": "Ice Tile 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 7036,
+			"y": 472,
+			"type": "sign",
+			"id": "Level exit",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -48,
+			"y": 516,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 180
+		},
+		{
+			"x": -48,
+			"y": 476,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 180
+		},
+		{
+			"x": -48,
+			"y": 436,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 180
+		},
+		{
+			"x": -8,
+			"y": 560,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 32,
+			"y": 560,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 72,
+			"y": 560,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 112,
+			"y": 560,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 152,
+			"y": 560,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 192,
+			"y": 560,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 232,
+			"y": 560,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 272,
+			"y": 560,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 312,
+			"y": 560,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 352,
+			"y": 560,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 392,
+			"y": 560,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 2256,
+			"y": 300,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 180
+		},
+		{
+			"x": 2256,
+			"y": 260,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 180
+		},
+		{
+			"x": 2256,
+			"y": 220,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 180
+		},
+		{
+			"x": 2256,
+			"y": 180,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 180
+		},
+		{
+			"x": 2256,
+			"y": 140,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 180
+		},
+		{
+			"x": 1712,
+			"y": 300,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 360
+		},
+		{
+			"x": 1712,
+			"y": 260,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 360
+		},
+		{
+			"x": 1712,
+			"y": 220,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 360
+		},
+		{
+			"x": 1712,
+			"y": 180,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 360
+		},
+		{
+			"x": 1712,
+			"y": 140,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 360
+		},
+		{
+			"x": 2688,
+			"y": 208,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2728,
+			"y": 208,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2648,
+			"y": 208,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5868,
+			"y": 464,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5908,
+			"y": 464,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 5948,
+			"y": 464,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -148,
+			"y": -40,
+			"type": "spawn",
+			"id": "Spawn Point",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		}
+	]
+}

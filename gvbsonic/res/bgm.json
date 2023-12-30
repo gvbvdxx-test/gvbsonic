@@ -1,0 +1,12 @@
+{
+  "Template_zone":{
+	  "path":"res/music/template/template1.wav"
+  },
+  "IceCube_zone_1":{
+	  "path":"res/music/icecube/icz1.mp3"
+  },
+  "SonicMania_GreenHillZone1":{
+	  "path":"res/music/greengrass/SM_GreenHillZone.mp3",
+	  "loop":14.42380
+  }
+}

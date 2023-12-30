@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="icon"
+      href="favicon.png"
+    />
+    <title>Tile editor | Gvbvdxx JS Sonic Engine</title>
+  </head>
+  <body style="font-family: arial;">
+		<input type="file" id="lfile" hidden>
+      <!--<iframe src="index.html" style="border:none;width:600px;height:360px;"></iframe>-->
+      <div id="left" style="overflow-y:scroll;width:300px;height:100vh;background:grey;position:fixed;top:0;left:0;">
+		  <h1>Level editor</h1>
+		  <style>
+			.tileSelect { 
+				width:64px;
+				height:64px;
+				border:none;
+				border-radius: 10px;
+				cursor:pointer;
+				background:#ffffff;
+			}
+			.tileSelect:hover {
+				background:#e6e6e6;
+			}
+			.tileSelect[selected=true] {
+				background:white;
+				  animation-name: flash;
+				  animation-duration: 500ms;
+				  animation-iteration-count: infinite;
+				  animation-timing-function: linear; 
+			}
+			@keyframes flash {
+				0% {
+					background:white;
+				}
+				50% {
+					background:grey;
+				}
+				100% {
+					background:white;
+				}
+			}
+			.tileSelect[selected=true] img {
+				width:70%;
+			}
+			.tileSelect img { 
+				image-rendering:pixelated;
+				width:50%;
+			}
+		  </style>
+		  <style>
+			.windowtab {
+				background:grey;
+				width:100%;
+				height:25px;
+			}
+			.windowtab:hover {
+				background:#737373;
+				cursor:pointer;
+			}
+			.windowtab span {
+				font-weight:bold;
+				font-size:20px;
+				color:white;
+				display: block;
+				text-align: center;
+			}
+			.headtext {
+				font-size:25px;
+				font-weight:bold;
+			}
+		  </style>
+		  <p id="loadings">Please wait... this might take a second...</p>
+		  <div id="tabs">
+			<div id="tabfile" onclick="window1.hidden = false;window2.hidden = true;window3.hidden = true;" class="windowtab">
+				<span>
+					<img src="editor/folder.ico" width=16 height=16>
+					File
+				</span>
+			</div>
+			<div id="tabfile" onclick="window1.hidden = true;window2.hidden = false;window3.hidden = true;" class="windowtab">
+				<span>
+					<img src="favicon.bmp" width=16 height=16>
+					Editor
+				</span>
+			</div>
+			<div id="tabfile" onclick="window1.hidden = true;window2.hidden = true;window3.hidden = false;" class="windowtab">
+				<span>
+					<img src="editor/clipboard.ico" width=16 height=16>
+					Info
+				</span>
+			</div>
+		  </div>
+		  <div id="window1">
+			  
+			  <b>Export JSON:</b>
+			  <textarea id="exporttext" style="resize:vertical;width:260px;height:150px;"></textarea><br>
+			  <button id="savetext">
+				Save As JSON text
+			  </button><button id="save">
+				Save
+			  </button><button id="load" onclick="document.getElementById('lfile').click();">
+				Load
+			  </button>
+			  <button id="new" onclick="if (window.confirm('Are you sure about this? This will erase EVERYTHING from the level your making.')) {window.levels = [];}">
+				New
+			  </button><br>	
+			  <b>Load from SRC:</b><input type="text" id="url"><button id="loadfromurl">Load URL!</button>
+		  </div>
+		  
+		<div id="window2" hidden>
+			  <span class="headtext">Tile Select:</span><br>
+			  <div id="tileSelection" style="resize:vertical;width:260px;height:150px;overflow-y:scroll;overflow-x:none;border-style:solid;border-width:1px;border-color:black;background:white;"></div>
+			  <br>
+			  <span class="headtext">Tile options:</span><br>
+				<b>Text value :</b><input type="text" id="textvalue"><br>
+				<p id="tileinfo"></p><br>
+			<div title="Disable 128 by 128 grid">
+			<span>Disable 128x128 grid:</span><input type="checkbox" id="grid"><br></div>
+		</div>
+		<div id="window3" hidden>
+			<span class="headtext">Position options:</span><br>
+			<div title="Disable preventing the camera from going down further than 0 pixels">
+			<span>Disable Y Lock:</span><input type="checkbox" id="ylock"><br></div>
+			<span class="headtext">Styling options:</span><br>
+			<div title="The background for the level.">
+			<span>Background:</span>
+			<select id="bg"></select><br>
+			</div>
+			<div title="The background music for the level.">
+			<span>BGM (Background Music):</span>
+			<select id="bgm"></select>
+			</div><br>
+			<div title="The background music for the level.">
+			<span>Level title (Not required):</span>
+			<input id="title">
+			</div>
+		</div>
+	  </div>
+	  <div id="right" style="background:black;width:calc(100vw - 300px);height:100vh;position:fixed;top:0;right:0;">
+		<canvas id="editor" width="600" height="360" style="width:600px;height:360px;background:white;image-rendering:pixelated;"></canvas><br>
+		<textarea hidden id="data"></textarea><br>
+	  </div>
+    <script src="src/gvbvdxx-renderer.js?n=1"></script>
+    <script src="src/tiles.js?n=1"></script>
+    <script src="src/backgrounds.js?n=1"></script>
+	<script src="src/asset-manager.js?n=1"></script>
+    <script src="editor/index.js"></script>
+  </body>
+</html>
