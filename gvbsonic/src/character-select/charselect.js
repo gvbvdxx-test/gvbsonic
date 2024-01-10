@@ -24,6 +24,18 @@ window.doCharacterSelect = async function (backtomenu,next) {
 		movesound.play();
 	}
 	
+	function replayAnimation () {
+		if (charInfo[selectedID]) {
+			characterView.currentAnimation = null;
+			
+			characterView.image = character.image;
+			characterView.spritesheetData = character.spritesheet;
+			characterView.animationData = character.animations;
+			
+			runAnimation(characterView, "stand");
+		}
+	}
+	
 	document.onkeydown = function (e) {
 		if (!characterChosen) {
 			if (e.key == "ArrowRight") {
@@ -36,6 +48,8 @@ window.doCharacterSelect = async function (backtomenu,next) {
 				}
 				
 				movesoundplay();
+				
+				replayAnimation();
 			}
 			if (e.key == "ArrowLeft") {
 				characterView.currentAnimation = null;
@@ -47,6 +61,8 @@ window.doCharacterSelect = async function (backtomenu,next) {
 				}
 				
 				movesoundplay();
+				
+				replayAnimation();
 			}
 			if (e.key == "Enter") {
 				characterSelectOpen = false;
@@ -90,6 +106,8 @@ window.doCharacterSelect = async function (backtomenu,next) {
 		
 		playmusic();
 		
+		replayAnimation();
+		
 		while (characterSelectOpen) {
 			await window.tickAsync60FPSTimer();
 			var selectedID = chars[selected];
@@ -101,11 +119,11 @@ window.doCharacterSelect = async function (backtomenu,next) {
 				characterView.spritesheetData = character.spritesheet;
 				characterView.animationData = character.animations;
 				
-				runAnimation(characterView, "stand");
-				
 				window.gvbsonicUseTailsNPC = false;
 				window.gvbsonicSelectedChar = selectedID;
 				window.gvbsonicNPCCharacter = selectedID;
+				
+				replayAnimation();
 			} else {
 				//It's a diffrent configuration.
 				
@@ -130,6 +148,8 @@ window.doCharacterSelect = async function (backtomenu,next) {
 	document.onkeydown = null;
 	
 	await window.transitionFadeIn();
+	
+	characterView.currentAnimation = null;
 	
 	window.sprites = [];
 	

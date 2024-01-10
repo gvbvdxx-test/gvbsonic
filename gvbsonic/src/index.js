@@ -544,11 +544,8 @@ async function runAnimation(spr, name, options) {
                                 spr.height =
                                     spr.imageLocation.height * optionsdata.resizeSpriteScale;
                             } else {
-                                console.warn(
-`Sprite does not have spritesheet image "${frame}"`);
                             }
                         } else {
-                            console.warn(`Sprite does not have any spritesheet data`);
                         }
                     }
                     animindex +=
@@ -1326,11 +1323,20 @@ async function movementEngine(
                     if (!spr.dead) {
                         if (spr.spindash) {
                             spr.engineOffset = -12; //hight during spindash attack
+							if (spr.character.spindashOffset) {
+								spr.engineOffset = spr.character.spindashOffset;
+							}
                         } else {
                             if (spr.rolling) {
-                                spr.engineOffset = -21; //height during rolling
+                                spr.engineOffset = -19; //height during rolling
+								if (spr.character.rollOffset) {
+									spr.engineOffset = spr.character.rollOffset;
+								}
                             } else {
-                                spr.engineOffset = -21; //normal height
+                                spr.engineOffset = -19; //normal height
+								if (spr.character.normalOffset) {
+									spr.engineOffset = spr.character.normalOffset;
+								}
                             }
                         }
                         if (!spr.onfloor) {
@@ -1606,13 +1612,24 @@ async function movementEngine(
                                 }
                             }
                             if (!(spr.left || spr.right)) {
-                                spr.speed += spr.speed / -28;
+								spr.speed += spr.speed / -28;
                                 if (spr.onfloor) {
-                                    if (Math.abs(spr.speed) < 1) {
-                                        if ((Math.round(spr.engineAngle / 90) * 90) == 90) {
-                                            spr.speed = (spr.engineAngle - 90) / 35;
-                                        }
-                                    }
+									if (Math.round(spr.engineAngle) == 90) {
+										if (Math.abs(spr.speed) < 1) {
+											if ((Math.round(spr.engineAngle / 90) * 90) == 90) {
+												spr.speed = (spr.engineAngle - 90) / 35;
+											}
+										}
+									} else {
+										if ((Math.round(spr.engineAngle / 90) * 90) == 90) {
+											if ((Math.round(spr.engineAngle / 45) * 45) == 45) {
+												spr.speed -= 0.3;
+											}
+											if ((Math.round(spr.engineAngle / 45) * 45) == 135) {
+												spr.speed += 0.3;
+											}
+										}
+									}
                                 } else {
                                     if (Math.abs(spr.speed) < 1) {
                                         spr.speed = 0;

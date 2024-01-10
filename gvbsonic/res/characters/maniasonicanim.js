@@ -1,168 +1,177 @@
 window.files.maniaSonicAnimations = {
   "walk":{
     frames:[
-      "walk1.png",
-      "walk2.png",
-      "walk3.png",
-      "walk4.png",
-      "walk5.png",
-      "walk6.png",
-      "walk7.png",
-      "walk8.png",
-      "walk9.png",
-      "walk10.png",
-      "walk11.png",
-      "walk12.png"
+      "spr_sonic_26.png",
+	  "spr_sonic_27.png",
+	  "spr_sonic_28.png",
+	  "spr_sonic_29.png",
+	  "spr_sonic_30.png",
+	  "spr_sonic_31.png",
+	  "spr_sonic_32.png",
+	  "spr_sonic_33.png",
+	  "spr_sonic_34.png",
+	  "spr_sonic_35.png",
+	  "spr_sonic_36.png",
+	  "spr_sonic_37.png"
     ],
     fps:45,
     loop:true
   },
   "jog":{
     frames:[
-      "jog1.png",
-      "jog2.png",
-      "jog3.png",
-      "jog4.png",
-      "jog5.png",
-      "jog6.png",
-      "jog7.png",
-      "jog8.png",
-      "jog9.png",
-      "jog10.png"
+      "spr_sonic_189.png",
+	  "spr_sonic_190.png",
+	  "spr_sonic_192.png",
+	  "spr_sonic_193.png",
+	  "spr_sonic_194.png",
+	  "spr_sonic_195.png",
+	  "spr_sonic_196.png",
+	  "spr_sonic_197.png",
+	  "spr_sonic_198.png"
     ],
     fps:45,
     loop:true
   },
   "hurt":{
     frames:[
-      "hurt1.png",
-      "hurt2.png"
+      "spr_sonic_94.png",
+	  "spr_sonic_96.png",
+	  "spr_sonic_97.png",
+	  "spr_sonic_98.png"
     ],
     fps:60,
-    loop:true
+    loop:false
   },
   "skid":{
     frames:[
-      "brake1.png",
-      "brake2.png"
+      "spr_sonic_91.png",
+	  "spr_sonic_92.png",
+	  "spr_sonic_93.png"
     ],
     fps:60,
     loop:true
   },
   "spindash":{
     frames:[
-      "spindash1.png",
-      "spindash-mid.png",
-      "spindash2.png",
-      "spindash-mid.png",
-      "spindash3.png",
-      "spindash-mid.png",
-      "spindash4.png",
-      "spindash-mid.png",
-      "spindash5.png",
-      "spindash-mid.png",
-      "spindash6.png",
-      "spindash-mid.png",
-      "spindash7.png",
-      "spindash-mid.png",
-      "spindash8.png",
-      "spindash-mid.png"
+      "spr_sonic_71.png",
+	  "spr_sonic_72.png",
+	  "spr_sonic_73.png",
+	  "spr_sonic_74.png",
+	  "spr_sonic_75.png",
+	  "spr_sonic_76.png",
+	  "spr_sonic_77.png",
+	  "spr_sonic_78.png",
+	  "spr_sonic_79.png",
+	  "spr_sonic_80.png",
+	  "spr_sonic_81.png",
+	  "spr_sonic_82.png",
+	  "spr_sonic_83.png",
+	  "spr_sonic_84.png",
+	  "spr_sonic_85.png",
+	  "spr_sonic_86.png"
     ],
     fps:30,
     loop:true
   },
   "died":{
     frames:[
-      "died.png"
+      "dead.png"
     ],
     fps:60,
     loop:true
   },
   "spring":{
     frames:[
-      "spring1.png",
-	  "spring2.png"
+      "spr_sonic_148.png",
+	  "spr_sonic_149.png"
     ],
     fps:40,
     loop:true
   },
   "duck":{
     frames:[
-      "duck.png"
+      "spr_sonic_67.png",
+	  "spr_sonic_68.png",
+	  "spr_sonic_69.png",
+	  "spr_sonic_70.png"
     ],
-    fps:60,
-    loop:true
+    fps:15,
+    loop:false
   },
   "lookup":{
     frames:[
-      "lookup.png"
+      "spr_sonic_62.png",
+	  "spr_sonic_63.png",
+	  "spr_sonic_64.png",
+	  "spr_sonic_65.png",
+	  "spr_sonic_66.png"
     ],
-    fps:60,
-    loop:true
+    fps:15,
+    loop:false
   },
   "stand":{
     frames:[
-      "stand.png"
+      "spr_sonic_0.png"
     ],
     fps:60,
     loop:true
   },
   "run":{
     frames:[
-      "run1.png",
-      "run2.png",
-      "run3.png",
-      "run4.png",
-      "run5.png",
-      "run6.png",
-      "run7.png"
+      "spr_sonic_38.png",
+	  "spr_sonic_39.png",
+	  "spr_sonic_40.png",
+	  "spr_sonic_41.png",
+	  "spr_sonic_42.png",
+	  "spr_sonic_43.png",
+	  "spr_sonic_45.png"
     ],
     fps:30,
     loop:true
   },
   "runfastest":{
     frames:[
-      "peel1.png",
-      "peel2.png",
-      "peel3.png",
-      "peel4.png"
+      "spr_sonic_185.png",
+	  "spr_sonic_186.png",
+	  "spr_sonic_187.png",
+	  "spr_sonic_188.png"
     ],
     fps:30,
     loop:true
   },
   "push":{
     frames:[
-      "push1.png",
-      "push2.png",
-      "push3.png",
-      "push4.png",
-      "push5.png",
-      "push6.png",
-      "push8.png",
-      "push9.png"
+      "spr_sonic_117.png",
+	  "spr_sonic_118.png",
+	  "spr_sonic_119.png",
+	  "spr_sonic_120.png",
+	  "spr_sonic_122.png",
+	  "spr_sonic_123.png",
+	  "spr_sonic_124.png",
+	  "spr_sonic_125.png",
+	  "spr_sonic_126.png"
     ],
     fps:13,
     loop:true
   },
   "roll":{
     frames:[
-      "spin1.png",
-      "spin2.png",
-      "spin3.png",
-      "spin4.png",
-      "spin5.png",
-      "spin6.png",
-      "spin7.png",
-      "spin8.png",
-      "spin9.png",
-      "spin10.png",
-      "spin11.png",
-      "spin12.png",
-      "spin13.png",
-      "spin14.png",
-      "spin15.png",
-      "spin16.png",
-      "spin17.png"
+      "spr_sonic_46.png",
+	  "spr_sonic_47.png",
+	  "spr_sonic_48.png",
+	  "spr_sonic_49.png",
+	  "spr_sonic_50.png",
+	  "spr_sonic_51.png",
+	  "spr_sonic_52.png",
+	  "spr_sonic_53.png",
+	  "spr_sonic_54.png",
+	  "spr_sonic_55.png",
+	  "spr_sonic_56.png",
+	  "spr_sonic_57.png",
+	  "spr_sonic_58.png",
+	  "spr_sonic_59.png",
+	  "spr_sonic_60.png",
+	  "spr_sonic_61.png"
     ],
     fps:60,
     loop:true

@@ -71,6 +71,9 @@ var cvs = renderer.canvas;
 var lasthd = window.HDRendering;
 setInterval(() => {
   var scale = window.innerHeight / 360;
+  if (scale > (window.innerWidth / 600)) {
+	  scale = window.innerWidth / 600;
+  }
   //scale = 1;
   if (!(otherscale == scale) || !(window.HDRendering == lasthd)) {
     lasthd = window.HDRendering;
@@ -78,6 +81,7 @@ setInterval(() => {
     cvs.style.width = scale * renderer.gameScreenWidth + "px";
     cvs.style.height = scale * renderer.gameScreenHeight + "px";
     cvs.style.marginLeft = (scale * renderer.gameScreenWidth) / -2 + "px";
+	cvs.style.marginTop = (scale * renderer.gameScreenHeight) / -2 + "px";
 
     if (window.HDRendering) {
       renderer.scaleX = scale;

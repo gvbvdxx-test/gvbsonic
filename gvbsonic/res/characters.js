@@ -57,9 +57,10 @@ async function initCharData() {
 		"maniaSonic": {
 			name:"Sonic",
 			fullname:"Mania Sonic",
-			scale:0.5,
+			scale:1,
 			angle:1,
 			smoothAngles:true,
+			spindashOffset: -19,
 			image: await window.loadImage("res/characters/maniasonic.png"),
 			spritesheet:window.files.maniaSonicSpritehseet.sprites,
 			animations:window.files.maniaSonicAnimations,
