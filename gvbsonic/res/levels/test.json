@@ -1,0 +1,1907 @@
+{
+	"disableYLock": false,
+	"background": "greyGrid",
+	"BGM": "Template_zone",
+	"title": "Template Zone Act 1",
+	"tiles": [
+		{
+			"x": -256,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -128,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 128,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 256,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 0,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -256,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -128,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 128,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 256,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -248,
+			"y": 88,
+			"type": "spawn",
+			"id": "Spawn Point",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -128,
+			"y": 92,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -104,
+			"y": 92,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -80,
+			"y": 92,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -56,
+			"y": 92,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -32,
+			"y": 92,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 384,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 512,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 640,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 768,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 408,
+			"y": -44,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 428,
+			"y": -44,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 448,
+			"y": -44,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 468,
+			"y": -44,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 488,
+			"y": -44,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 508,
+			"y": -44,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 408,
+			"y": -24,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 428,
+			"y": -24,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 448,
+			"y": -24,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 468,
+			"y": -24,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 488,
+			"y": -24,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 508,
+			"y": -24,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 328,
+			"y": -48,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 180
+		},
+		{
+			"x": 328,
+			"y": -16,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 180
+		},
+		{
+			"x": 624,
+			"y": -32,
+			"type": "tile",
+			"id": "Template zone tile 63",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 768,
+			"y": -32,
+			"type": "tile",
+			"id": "Template zone tile 63",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 700,
+			"y": -32,
+			"type": "tile",
+			"id": "Template zone tile 63",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 896,
+			"y": 128,
+			"type": "tile",
+			"id": "Template zone tile 63",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 896,
+			"y": -32,
+			"type": "tile",
+			"id": "Template zone tile 63",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1024,
+			"y": -32,
+			"type": "tile",
+			"id": "Template zone tile 63",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1152,
+			"y": -32,
+			"type": "tile",
+			"id": "Template zone tile 63",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1024,
+			"y": 128,
+			"type": "tile",
+			"id": "Template zone tile 63",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1152,
+			"y": 128,
+			"type": "tile",
+			"id": "Template zone tile 63",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 896,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1024,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1152,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 896,
+			"y": 256,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1024,
+			"y": 256,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1152,
+			"y": 256,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1152,
+			"y": 384,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1024,
+			"y": 384,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 896,
+			"y": 384,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 896,
+			"y": 512,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1024,
+			"y": 512,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1152,
+			"y": 512,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 768,
+			"y": 512,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 640,
+			"y": 512,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 512,
+			"y": 512,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 384,
+			"y": 512,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 256,
+			"y": 512,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 128,
+			"y": 512,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 128,
+			"y": 512,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 0,
+			"y": 512,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -128,
+			"y": 512,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -256,
+			"y": 512,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 256,
+			"y": 256,
+			"type": "tile",
+			"id": "Template zone tile 39",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 128,
+			"y": 256,
+			"type": "tile",
+			"id": "Template zone tile 38",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 148,
+			"y": 268,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 232,
+			"y": 268,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 44,
+			"y": 300,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 44,
+			"y": 260,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 44,
+			"y": 220,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 44,
+			"y": 180,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 44,
+			"y": 140,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 44,
+			"y": 100,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 340,
+			"y": 304,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 340,
+			"y": 264,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 340,
+			"y": 224,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 340,
+			"y": 184,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 340,
+			"y": 144,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 340,
+			"y": 104,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 256,
+			"y": 128,
+			"type": "tile",
+			"id": "Template zone tile 43",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 128,
+			"y": 128,
+			"type": "tile",
+			"id": "Template zone tile 42",
+			"layer": 2,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 644,
+			"y": 96,
+			"type": "motobug",
+			"id": "Motobug",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 680,
+			"y": 96,
+			"type": "motobug",
+			"id": "Motobug",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1280,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1408,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1536,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1664,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 840,
+			"y": 64,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 888,
+			"y": 64,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 936,
+			"y": 64,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 984,
+			"y": 64,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1072,
+			"y": 64,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1028,
+			"y": 64,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1108,
+			"y": 64,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 336,
+			"y": 48,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 368,
+			"y": 48,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 400,
+			"y": 48,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 432,
+			"y": 48,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 668,
+			"y": 160,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 636,
+			"y": 160,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 816,
+			"y": 112,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 784,
+			"y": 112,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 480,
+			"y": 212,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 512,
+			"y": 212,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 304,
+			"y": 336,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 272,
+			"y": 336,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1232,
+			"y": 16,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1232,
+			"y": -16,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1232,
+			"y": -48,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1536,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 11",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1616,
+			"y": -48,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1616,
+			"y": -16,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1616,
+			"y": 16,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1616,
+			"y": 40,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1616,
+			"y": 72,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1696,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 10",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1792,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1920,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2048,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -256,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": -128,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 0,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 128,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 256,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 384,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 640,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 512,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 768,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 896,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1024,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1152,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 544,
+			"y": 16,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 544,
+			"y": -16,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 544,
+			"y": -48,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 520,
+			"y": 24,
+			"type": "tile",
+			"id": "Template 16x16",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 520,
+			"y": 8,
+			"type": "tile",
+			"id": "Template 16x16",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1264,
+			"y": -44,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 180
+		},
+		{
+			"x": 1616,
+			"y": 104,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1280,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 63",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1408,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 63",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1664,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 63",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1536,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 63",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1792,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 63",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1920,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 63",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2048,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 63",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2176,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 63",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2304,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 63",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2432,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 63",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2560,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 63",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2688,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 63",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2176,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2432,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2304,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2048,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2176,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 66",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1920,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 11",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2304,
+			"y": 0,
+			"type": "tile",
+			"id": "Template zone tile 10",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2000,
+			"y": 80,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2032,
+			"y": 80,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2064,
+			"y": 80,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2096,
+			"y": 80,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2128,
+			"y": 80,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2160,
+			"y": 80,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2192,
+			"y": 80,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2224,
+			"y": 80,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2016,
+			"y": 104,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2212,
+			"y": 104,
+			"type": "springRed",
+			"id": "Spring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2016,
+			"y": 128,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2016,
+			"y": 148,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2016,
+			"y": 168,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2212,
+			"y": 128,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2212,
+			"y": 148,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2212,
+			"y": 168,
+			"type": "ring",
+			"id": "Ring",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 84,
+			"y": 336,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 1236,
+			"y": 592,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 1276,
+			"y": 592,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 1316,
+			"y": 592,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 1356,
+			"y": 592,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 1396,
+			"y": 592,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 270
+		},
+		{
+			"x": 2068,
+			"y": 112,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2164,
+			"y": 112,
+			"type": "spikes",
+			"id": "Spikes",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2116,
+			"y": 112,
+			"type": "monitor-ring",
+			"id": "Ring Monitor",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2560,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2688,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2816,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2944,
+			"y": -128,
+			"type": "tile",
+			"id": "Template zone tile 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2816,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 46",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2944,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 46",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3072,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 46",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3200,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 46",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 3328,
+			"y": 640,
+			"type": "tile",
+			"id": "Template zone tile 46",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2000,
+			"y": 300,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2032,
+			"y": 300,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2064,
+			"y": 300,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2096,
+			"y": 300,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2128,
+			"y": 300,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2160,
+			"y": 300,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2192,
+			"y": 300,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2224,
+			"y": 300,
+			"type": "tile",
+			"id": "Template 32x32",
+			"layer": 1,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2000,
+			"y": 264,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2116,
+			"y": 264,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2224,
+			"y": 264,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2172,
+			"y": 264,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2056,
+			"y": 264,
+			"type": "s2",
+			"id": "Switch layer to 2",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2000,
+			"y": 356,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2056,
+			"y": 356,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2116,
+			"y": 356,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2172,
+			"y": 356,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		},
+		{
+			"x": 2224,
+			"y": 356,
+			"type": "s1",
+			"id": "Switch layer to 1",
+			"layer": 0,
+			"text": null,
+			"dir": 90
+		}
+	]
+}

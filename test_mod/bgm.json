@@ -1,0 +1,13 @@
+{
+  "GreenHillZone_SNES":{
+	  "path":"res/music/ghz-snes.mp3"
+  },
+  "SonicMania_GreenHillZone1":{
+	  "path":"res/music/SM_GreenHillZone.mp3",
+	  "loop":14.42380
+  },
+   "LoopTest":{
+	  "path":"res/music/LoopTest.wav",
+	  "loop":3.19990
+  }
+}

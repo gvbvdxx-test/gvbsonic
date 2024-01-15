@@ -1,0 +1,54 @@
+{
+	"spriteSheetWidth": 1684,
+	"spriteSheetHeight": 289,
+	"sprites": [
+		{
+			"x": 0,
+			"y": 0,
+			"width": 160,
+			"height": 196,
+			"name": "sonic.png",
+			"image": {}
+		},
+		{
+			"x": 161,
+			"y": 0,
+			"width": 438,
+			"height": 288,
+			"name": "title.png",
+			"image": {}
+		},
+		{
+			"x": 600,
+			"y": 0,
+			"width": 438,
+			"height": 161,
+			"name": "bottom title.png",
+			"image": {}
+		},
+		{
+			"x": 1039,
+			"y": 0,
+			"width": 268,
+			"height": 266,
+			"name": "circle.png",
+			"image": {}
+		},
+		{
+			"x": 1308,
+			"y": 0,
+			"width": 137,
+			"height": 25,
+			"name": "text2.png",
+			"image": {}
+		},
+		{
+			"x": 1446,
+			"y": 0,
+			"width": 118,
+			"height": 54,
+			"name": "text1.png",
+			"image": {}
+		}
+	]
+}

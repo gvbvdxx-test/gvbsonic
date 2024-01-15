@@ -1,0 +1,26 @@
+{
+    "name": "gvbsonic",
+    "version": "1.5.0",
+    "description": "Gvbvdxx Sonic Engine",
+    "main": "main.js",
+	"productName": "Gvbvdxx Sonic Engine",
+    "scripts": {
+        "playerview": "electron .",
+		"start": "electron . --devmode",
+        "build": "electron-builder --dir --ia32",
+        "static": "http-server ./gvbsonic"
+    },
+    "author": "gvbvdxx",
+    "license": "ISC",
+    "dependencies": {
+        "@electron/remote": "^2.0.11",
+        "http": "^0.0.1-security",
+        "http-server": "^14.1.1",
+        "luaparse": "^0.3.1",
+        "ws": "^8.14.2"
+    },
+    "devDependencies": {
+        "electron": "^25.2.0",
+        "electron-builder": "^24.4.0"
+    }
+}
