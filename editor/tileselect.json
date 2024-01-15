@@ -1,0 +1,118 @@
+{
+	"tileSelectButtons":[
+		{
+			"headertext":true,
+			"text":"Template Tiles"
+		},
+		
+		{
+			"id":"Template 32x32",
+			"usedefault":true,
+			"tileProperties":{
+				"disableGridForThisTile":true,
+				"supportsRotation":false
+			}
+		},
+		
+		{
+			"id":"Template 16x16",
+			"usedefault":true,
+			"tileProperties":{
+				"disableGridForThisTile":true,
+				"supportsRotation":false
+			}
+		},
+		
+		{
+			"id":"Template zone tile ",
+			"islength":true,
+			"length":70,
+			"startingNumber":0
+		},
+		
+		
+		{
+			"headertext":true,
+			"text":"Ice Tiles"
+		},
+		{
+			"id":"Ice Tile ",
+			"islength":true,
+			"length":12,
+			"startingNumber":1
+		},
+		
+		{
+			"headertext":true,
+			"text":"Green Grass Zone"
+		},
+		{
+			"id":"Green Grass ",
+			"islength":true,
+			"length":11,
+			"startingNumber":1
+		},
+		
+		
+		{
+			"headertext":true,
+			"text":"Objects"
+		},
+		
+		{
+			"id":"Ring",
+			"usedefault":false,
+			"src":"editor/selections/ring.png",
+			"defaulttile":true
+		},
+		
+		{
+			"id":"Level exit",
+			"usedefault":true
+		},
+		
+		{
+			"id":"Eggman Monitor",
+			"usedefault":false,
+			"src":"editor/selections/eggmanMonitor.png"
+		},
+		
+		{
+			"id":"Ring Monitor",
+			"usedefault":false,
+			"src":"editor/selections/ringMonitor.png"
+		},
+		{
+			"id":"Switch layer to 1",
+			"usedefault":false,
+			"src":"editor/s1.png"
+		},
+		{
+			"id":"Switch layer to 2",
+			"usedefault":false,
+			"src":"editor/s2.png"
+		},
+		{
+			"id":"Spring",
+			"usedefault":false,
+			"src":"editor/selections/spring.png"
+		},
+		{
+			"id":"Motobug",
+			"usedefault":true
+		},
+		{
+			"id":"Spikes",
+			"usedefault":true
+		},
+		{
+            "id": "Spawn Point",
+            "usedefault": true,
+			"tileProperties":{
+				"disableGridForThisTile":true,
+				"supportsRotation":false,
+				"objectType":"spawn"
+			}
+        }
+	]
+}

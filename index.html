@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="favicon.bmp" />
+    <title>Gvbvdxx Sonic Engine</title>
+  </head>
+  <body style="background: black; color: white; font-family: arial">
+    <noscript>
+      <h1>Please Enable Javascript!</h1>
+      <span>This game requires javascript to run, without it, the game will not do anything, most modern websites use Java Script, so please enable it here.</span>
+    </noscript>
+    <style>
+      .loadprog {
+        width: 100%;
+        height: 50px;
+      }
+      .loadingAssets {
+      }
+      .loadingAssets {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        height: 200px;
+        color: white;
+        font-family: arial;
+        overflow-y: hidden; /* Hide vertical scrollbar */
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+      }
+    </style>
+    <div hidden id="gvbsonicgame">
+      <div id="loading" style="">
+        <img
+          class="loadingAssets"
+          style="
+            object-fit: contain;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+          "
+          ondragstart="return false;"
+          onselect="return false;"
+          id="loadingtext"
+          hidden
+          width="480"
+          height="360"
+        />
+      </div>
+      <div id="app" hidden>
+        <canvas
+          id="canvas"
+          style="position: fixed; top: 50%; left: 50%; cursor: none"
+          width="600"
+          height="360"
+        >
+          OOPS! there seems to be a problem with your browser, either it is
+          outdated, or you need to update it to a recent version.
+        </canvas>
+      </div>
+    </div>
+    <div id="clicktostart" hidden>
+      <div style="line-height:100vh;position:fixed;top:0;left:0;width:100vw;font-size:30px;font-weight:bold;text-align:center;">
+        Click to play!
+      </div>
+    </div>
+    <script src="src/asset-manager.js?n=1"></script>
+	<script src="src/startup-check.js?n=1"></script>
+  </body>
+</html>

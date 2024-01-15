@@ -1,0 +1,133 @@
+[
+	
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Ring",
+			"path":"res/items/ring.png"
+		}
+	},
+	
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Level exit",
+			"path":"res/items/goals/signpost-empty.png"
+		}
+	},
+	
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Ring Monitor",
+			"path":"res/items/monitor/monitor.png"
+		}
+	},
+	
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Eggman Monitor",
+			"path":"res/items/monitor/monitor.png"
+		}
+	},
+	
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Switch layer to 1",
+			"path":null
+		}
+	},
+	
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Switch layer to 2",
+			"path":null
+		}
+	},
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Spring",
+			"path":"res/items/spring/red.png"
+		}
+	},
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Spring Yellow",
+			"path":"res/items/spring/yellow.png"
+		}
+	},
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Motobug",
+			"path":"res/enimies/motobug.png"
+		}
+	},
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Spikes",
+			"path":"res/enimies/spikes.png"
+		}
+	},
+	
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Spawn Point",
+			"path":"res/other/spawn.png"
+		}
+	},
+	
+	
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Template 16x16",
+			"path":"res/tiles/TemplateZone/16x16.png"
+		}
+	},
+	
+	{
+		"addingMethod":"single",
+		"tile": {
+			"id":"Template 32x32",
+			"path":"res/tiles/TemplateZone/32x32.png"
+		}
+	},
+	
+	
+	
+	
+	{
+		"addingMethod":"multiple",
+		"pathStart":"res/tiles/TemplateZone/templatezone_",
+		"pathEnd":".png",
+		"idPrefix":"Template zone tile ",
+		"amount":70,
+		"startNum":0
+	},
+	
+	{
+		"addingMethod":"multiple",
+		"pathStart":"res/tiles/IceTiles/ice",
+		"pathEnd":".png",
+		"idPrefix":"Ice Tile ",
+		"amount":12,
+		"startNum":1
+	},
+	
+	{
+		"addingMethod":"multiple",
+		"pathStart":"res/tiles/GreenGrassZone/ggz",
+		"pathEnd":".svg",
+		"idPrefix":"Green Grass ",
+		"amount":11,
+		"startNum":1
+	}
+]
