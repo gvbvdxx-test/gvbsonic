@@ -144,7 +144,91 @@ function scr_wrap_angle(argument0) {
         temp -= 360;
     return temp;
 }
+
+var xLimiter = true;
+
+window.editor = {
+    events: {
+        emit: function (name, ...values) {
+            this[name].forEach((f) => {
+                f.apply(window.gvbsonic, values);
+            });
+        },
+        emitAsync: async function (name, ...values) {
+            for (var f of this[name]) {
+                await f.apply(window.gvbsonic, values);
+            }
+        },
+		
+		load: [], //This can be used for loading your own assets if you plan to program them in with scripts, use asyncronus promises to make the editor wait for the scripts to be done loading. Values: (none).
+		aftereditorload: [], //This is used like above but when the editor's assets are finished loading. Values: (none).
+		
+		checkeditorproperties: [], //This is like the tick event, but for updating the editor options. Values set from provided json will be set. Values: jsonObjectProperties.
+        tick: [], //Before drawing the editor screen, this gets called. Values: arrayOfTilesToRender.
+		keydown: [], //When key is pushed down. Values: keyString, documentKeyEvent.
+		keyup: [], //When key is released. Values: keyString, documentKeyEvent.
+		chosentype: [], //When the user selects another tile type, this also gets called when the program starts.
+		
+		tilecreate: [], //This is when the tile just gets placed. This can be used to "apply" custom values to the tile. Values: createdTileSprite, cursorEditorTileSprite.
+		
+		ticktile: [], //This is when the tile gets processed before drawn. "isSelectionTile" tells if it is the placement tile (the tile that follows your mouse in the editor), this is false if this is a "placed" tile.  Values: tileSprite, isSelectionTile.
+		loadtile: [], //This is when the tile gets loaded from json. Like "inittile" but for when this tile is processed from json. Values: tileSprite, tileJSONProperties.
+		savetile: [], //This is when the tile gets saved to json, values can be set from the "tileJSONProperties" event property. Values: tileSprite, tileJSONProperties.
+		loadlevel: [], //This is when the level gets loaded. Values can be read or set from JSON property assigned from the event values. Values: levelJSONObject.
+		savelevel: [], //Same as above, but when saved. Values can be read or set from JSON property assigned from the event values. Values: levelJSONObject.
+		clearlevel: [], //This is when the level gets cleared. Values can be reset here as well. Values: none
+	},
+    addEventListener: function (eventName, func) {
+        if (this.events[eventName]) {
+            this.events[eventName].push(func);
+        }
+    },
+    removeEventListener: function (eventName, func) {
+        if (this.events[eventName]) {
+
+            var newEventArray = [];
+
+            var removed = false;
+
+            for (var event of this.events[eventName]) {
+                if (removed) {
+                    newEventArray.push(event);
+                } else {
+                    if (event !== func) {
+                        newEventArray.push(event);
+                        removed = true;
+                    }
+                }
+            }
+
+            this.events[eventName] = newEventArray;
+
+        }
+    },
+	scroll: {
+		setX: function (v) {
+			scroll[0] = v;
+		},
+		setY: function (v) {
+			scroll[1] = v;
+		},
+		getX: function () {
+			return scroll[0];
+		},
+		getY: function () {
+			return scroll[1];
+		},
+		setXlimiter: function (v) {
+			xLimiter = v;
+		}
+	}
+};
+
 (async function () {
+		window.preloadModScripts();
+		
+		await editor.events.emitAsync("load");
+		
         var supportsrotation = false;
         window.files.signposts = {
             sonic: await window.loadImage("res/items/goals/signpost-sonic.png")
@@ -181,7 +265,7 @@ function scr_wrap_angle(argument0) {
         var s1 = await renderer.createImage("editor/s1.png");
         var s2 = await renderer.createImage("editor/s2.png");
         editorsprite.trs = 0.5;
-        function addTile(x, y, id, type, layer, t, dir) {
+        function addTile(x, y, id, type, layer, t, dir, otherProperties) {
             var widthheight = [1, 1];
             if (tiles[id]) {
                 widthheight = [tiles[id].width, tiles[id].height];
@@ -192,6 +276,9 @@ function scr_wrap_angle(argument0) {
                     tiles[id],
                     widthheight[0],
                     widthheight[1]);
+			if (otherProperties) {
+				tile.otherProperties = otherProperties;
+			}
             tile.sx = x;
             tile.sy = y;
             tile.stype = type;
@@ -200,6 +287,7 @@ function scr_wrap_angle(argument0) {
             tile.stext = t;
             tile.direction = dir;
             levels.push(tile);
+			return tile;
         }
         function removeTile(x, y, layer) {
             var a = [];
@@ -241,12 +329,14 @@ function scr_wrap_angle(argument0) {
 			if (j.BGM) {
                 bgm.value = j.BGM;
             }
+			editor.events.emit("loadlevel", j);
             reloadBG();
             window.disableYLock = j.disableYLock;
             levels = [];
             for (var obj of j.tiles) {
-                addTile(obj.x, obj.y * -1, obj.id, obj.type, obj.layer, obj.text, obj.dir);
-            }
+				var spr = addTile(obj.x, obj.y * -1, obj.id, obj.type, obj.layer, obj.text, obj.dir);
+				editor.events.emit("loadtile", spr, obj);
+			}
         };
 		window.saveLevel = function () {
             var j = {
@@ -256,8 +346,9 @@ function scr_wrap_angle(argument0) {
 				title: levelTitle.value,
                 tiles: []
             };
+			editor.events.emit("savelevel", j);
             for (var l of levels) {
-                j.tiles.push({
+				var stuff = {
                     x: l.sx,
                     y: l.sy * -1,
                     type: l.stype,
@@ -265,7 +356,9 @@ function scr_wrap_angle(argument0) {
                     layer: l.slayer,
                     text: l.stext,
                     dir: l.direction
-                });
+                };
+				editor.events.emit("savetile", l, stuff);
+                j.tiles.push(stuff);
             }
             return j;
         };
@@ -310,6 +403,7 @@ function scr_wrap_angle(argument0) {
         var shiftHeld = false;
         window.onkeydown = function (e) {
             if (enablekey) {
+				editor.events.emit("keydown", e.key, e);
                 if (e.key.toLowerCase() == "shift") {
                     shiftHeld = true;
                 }
@@ -322,7 +416,7 @@ function scr_wrap_angle(argument0) {
                     //rotate sprites!
                     if (supportsrotation) {
                         editorsprite.direction = scr_wrap_angle((editorsprite.direction + 45) - 90) + 90;
-                    }
+					}
                 }
                 if (e.key == "l") {
                     selectedlayer += 1;
@@ -331,25 +425,41 @@ function scr_wrap_angle(argument0) {
                     }
                 }
                 if (e.key == "ArrowLeft") {
-                    scroll[0] += 128;
+					if (shiftHeld) {
+						scroll[0] += 16;
+					} else {
+						scroll[0] += 128;
+					}
                     e.preventDefault();
                 }
                 if (e.key == "ArrowRight") {
-                    scroll[0] -= 128;
+                   if (shiftHeld) {
+						scroll[0] -= 16;
+					} else {
+						scroll[0] -= 128;
+					}
                     e.preventDefault();
                 }
                 if (e.key == "ArrowUp") {
-                    scroll[1] += 128;
+                    if (shiftHeld) {
+						scroll[1] += 16;
+					} else {
+						scroll[1] += 128;
+					}
                     e.preventDefault();
                 }
                 if (e.key == "ArrowDown") {
-                    scroll[1] -= 128;
+                    if (shiftHeld) {
+						scroll[0] -= 16;
+					} else {
+						scroll[0] -= 128;
+					}
                     e.preventDefault();
                 }
                 if (e.key == " ") {
                     //remember, the space bar is a whitespace of the event key value.
                     try {
-                        addTile(
+                        var sprobj = addTile(
                             editorsprite.sx,
                             editorsprite.sy,
                             editorsprite.sid,
@@ -357,6 +467,7 @@ function scr_wrap_angle(argument0) {
                             selectedlayer,
                             editorsprite.stext,
                             editorsprite.direction);
+						editor.events.emit("tilecreate", sprobj, editorsprite);
                     } catch (e) {
                         window.alert(e);
                     }
@@ -369,6 +480,7 @@ function scr_wrap_angle(argument0) {
             }
         };
         window.onkeyup = function (e) {
+			editor.events.emit("keyup", e.key, e);
             if (e.key.toLowerCase() == "shift") {
                 shiftHeld = false;
             }
@@ -448,7 +560,9 @@ function scr_wrap_angle(argument0) {
         }
         var bluebgspr = new window.GRender.SquareSprite(0, 0, null, 600, 360);
         bluebgspr.color = "#00a2ff";
-
+		
+		await editor.events.emitAsync("aftereditorload");
+		
         while (true) {
             await window.tickAsync();
             var i = 0;
@@ -465,9 +579,12 @@ function scr_wrap_angle(argument0) {
                     scroll[1] = 0;
                 }
             }
-            if (scroll[0] > 0) {
-                scroll[0] = 0;
-            }
+			if (xLimiter) {
+				if (scroll[0] > 0) {
+					scroll[0] = 0;
+				}
+			}
+            
             editorsprite.image = tiles[currenttile];
             editorsprite.sid = currenttile;
             if (editorsprite.image) {
@@ -514,6 +631,14 @@ function scr_wrap_angle(argument0) {
             if (monitorTypes[editorsprite.sid]) {
                 gridtoggle = false;
             }
+			var ops = {
+				gridtoggle:gridtoggle,
+				supportsrotation:supportsrotation,
+				editorsprite:editorsprite
+			};
+			editor.events.emit("checkeditorproperties", ops);
+			gridtoggle = ops.gridtoggle;
+			supportsrotation = ops.supportsrotation;
             if (gridtoggle) {
                 editorsprite.sx =
                     Math.round((renderer.mousePos[0] - scroll[0]) / 128) * 128;
@@ -534,6 +659,11 @@ function scr_wrap_angle(argument0) {
             }
 
             function doRunSprite(s) {
+				var isEditorTile = false;
+				if (s == editorsprite) {
+					isEditorTile = true;
+				}
+				editor.events.emit("ticktile", s, isEditorTile);
                 s.scale = 1;
                 s.imageLocation = null;
                 s.stype = "tile";
@@ -655,6 +785,7 @@ function scr_wrap_angle(argument0) {
                     realStuff.push(ti);
                 }
             }
+			editor.events.emit("tick",realStuff);
             renderer.drawSprites([bluebgspr].concat(bgsprs).concat(realStuff).concat(editorsprite));
         }
 })();

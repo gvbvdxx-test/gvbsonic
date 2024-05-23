@@ -104,7 +104,7 @@
 			  </button><button id="load" onclick="document.getElementById('lfile').click();">
 				Load
 			  </button>
-			  <button id="new" onclick="if (window.confirm('Are you sure about this? This will erase EVERYTHING from the level your making.')) {window.levels = [];}">
+			  <button id="new" onclick="if (window.confirm('Are you sure about this? This will erase EVERYTHING from the level your making.')) {editor.events.emit('clearlevel');window.levels = [];}">
 				New
 			  </button><br>	
 			  <b>Load from SRC:</b><input type="text" id="url"><button id="loadfromurl">Load URL!</button>
@@ -147,6 +147,7 @@
     <script src="src/tiles.js?n=1"></script>
     <script src="src/backgrounds.js?n=1"></script>
 	<script src="src/asset-manager.js?n=1"></script>
+	<script src="editor/mod-loader.js"></script>
     <script src="editor/index.js"></script>
   </body>
 </html>
