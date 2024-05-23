@@ -225,7 +225,9 @@ window.editor = {
 };
 
 (async function () {
-		window.preloadModScripts();
+		if (window.preloadModScripts) {
+			window.preloadModScripts();
+		}
 		
 		await editor.events.emitAsync("load");
 		
@@ -450,9 +452,9 @@ window.editor = {
                 }
                 if (e.key == "ArrowDown") {
                     if (shiftHeld) {
-						scroll[0] -= 16;
+						scroll[1] -= 16;
 					} else {
-						scroll[0] -= 128;
+						scroll[1] -= 128;
 					}
                     e.preventDefault();
                 }
