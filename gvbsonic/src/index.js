@@ -28,7 +28,8 @@ window.gvbsonic = {
         startgame: [],
         playlevelmusic: [],
         settitle: [],
-        tileupdate: []
+        tileupdate: [],
+		loadtile: []
     },
     addEventListener: function (eventName, func) {
         if (this.events[eventName]) {
@@ -447,7 +448,7 @@ async function doPlayerLauncher(spr, spr2, checkcollide) {
             moveStepsSpeed(
                 Math.abs(spr.speed),
                 scr_wrap_angle(spr.lastGroundAngle - 90) + 90)[1] *
-            0.6 *
+            0.8 *
             Math.sign(spr.speed);
         spr.speed =
             moveStepsSpeed(

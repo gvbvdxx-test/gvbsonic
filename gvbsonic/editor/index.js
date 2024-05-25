@@ -665,7 +665,6 @@ window.editor = {
 				if (s == editorsprite) {
 					isEditorTile = true;
 				}
-				editor.events.emit("ticktile", s, isEditorTile);
                 s.scale = 1;
                 s.imageLocation = null;
                 s.stype = "tile";
@@ -751,6 +750,7 @@ window.editor = {
                 } else {
                     s.trs = 0.6;
                 }
+				editor.events.emit("ticktile", s, isEditorTile);
             }
             editorsprite.x = scroll[0] + editorsprite.sx;
             editorsprite.y = scroll[1] + editorsprite.sy;

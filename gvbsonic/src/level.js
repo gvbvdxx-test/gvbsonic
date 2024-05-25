@@ -29,7 +29,7 @@ window.formatLevel = async function (level, images) {
     if (level.background) {
       window.levelinfo.background = level.background;
     }
-    function addTile(tile) {
+    async function addTile(tile) {
       try {
         var tilesize = [128, 128];
 
@@ -101,6 +101,11 @@ window.formatLevel = async function (level, images) {
           window.lowestLevelY = spr.sy + 128;
         }
         window.doTileBehaviorSpawn(spr);
+		//This event is for when tiles get spawned.
+		//Added this in so we don't have to "tap into" the
+		//function to get access to the tile properties and set them.
+		//Values: TileSprite, JSONTileProperties.
+		await gvbsonic.events.emitAsync("loadtile",spr,tile);
 		if (spr.stype == "spawn") {
 			window.levelinfo.spawn = [spr.sx,spr.sy];
 		} else {
@@ -112,12 +117,12 @@ window.formatLevel = async function (level, images) {
     }
     for (var tile of level.tiles) {
       if (tile.layer == 3) {
-        addTile(tile);
+        await addTile(tile);
       }
     }
     for (var tile of level.tiles) {
       if (tile.layer == 2 || tile.layer == 1 || tile.layer == 0) {
-        addTile(tile);
+        await addTile(tile);
       }
     }
     //window.alert(window.lowestLevelY);
