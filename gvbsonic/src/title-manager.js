@@ -9,7 +9,7 @@ function setTitleInfo (data) {
 	
 	//If possible, try to set the title with the version name.
 	var versionName = "";
-	if (window.remote) {
+	if (window.remote && !window.remote.app.isEmulatingApp) {
 		var ver = window.remote.app.getVersion();
 		versionName = " V"+ver;
 		versionOfApp = ver;
