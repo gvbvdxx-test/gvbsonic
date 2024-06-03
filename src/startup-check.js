@@ -202,9 +202,13 @@ var gvbsonicGame = document.getElementById("gvbsonicgame");
 
 var clicktostart = document.getElementById("clicktostart");
 
-if (isElectron) { //This is what happens when you start the game in Electron JS.
-    window.remote = window.require("@electron/remote");
+if (isElectron) { //Is electron can also be true if emulation is on, so that is why this if condition was made.
+	window.remote = window.require("@electron/remote");
     window.currentWindow = window.remote.getCurrentWindow();
+}
+
+if (isElectron && !window.virtualFSUsed) { //This is what happens when you start the game in Electron JS.
+    
     startGameScripts();
     clicktostart.hidden = true;
     gvbsonicGame.hidden = false;
