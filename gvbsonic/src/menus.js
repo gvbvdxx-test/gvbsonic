@@ -7,7 +7,8 @@ function getIsElectron() {
 if (!gvbsonicSaveData.data.options) {
 	gvbsonicSaveData.data.options = {
 		windowedMode:true,
-		HDRendering: false
+		HDRendering: false,
+		menuMusic: 0
 	};
 }
 
@@ -28,6 +29,9 @@ function updateSettings () {
 	gvbsonicSaveData.save();
 	updateWindowedMode();
 	updateHDRendering();
+	if (typeof optionsData.menuMusic !== "number") {
+		optionsData.menuMusic = 0;
+	}
 }
 
 updateSettings();
@@ -46,14 +50,7 @@ window.doMenus = async function () {
     var isInMenu = true;
     window.curMenu = "main";
     window.SonicmenuMusic = null;
-    function playmusic() {
-        SonicmenuMusic = new window.AudioApiReplacement(window.files.menumusic.main);
-        SonicmenuMusic.looped = true;
-        SonicmenuMusic.setVolume(1);
-        SonicmenuMusic.play();
-        SonicmenuMusic.onended = playmusic;
-    }
-    playmusic();
+    playMenuMusic();
     var mainMenuIndex = 0;
     var optionMenuIndex = 0;
 
@@ -75,19 +72,21 @@ window.doMenus = async function () {
             var selected = await runMenu([
                         new window.GRender.Sprite(0, 0, window.files.menuStuff.play, 46, 15),
                         new window.GRender.Sprite(0, 0, window.files.menuStuff.exit, 41, 15)
-                    ].concat(ElectronOnlyMenus).concat(devMenus), true, mainMenuIndex,
+                    ].concat(ElectronOnlyMenus).concat(devMenus), false, mainMenuIndex,
 					new window.GRender.Sprite(0, 0, window.files.menuStuff.mainMenuHeader, 272, 45));
             mainMenuIndex = selected;
             if (selected == 0) {
                 isInMenu = false;
                 window.transitionFadeIn();
                 window.doCharacterSelect(window.doMenus,function () {
+					stopMenuMusic();
 					window.runLevelsInOrder(window.doMenus);
 				});
             }
             if (selected == 1) {
                 isInMenu = false;
                 (async function () {
+					stopMenuMusic();
                     await window.titleScreen();
                     window.doMenus();
                 })();
@@ -131,11 +130,16 @@ window.doMenus = async function () {
             } else {
                 hdOption.text = "Enable HD rendering. (Buggy)";
             }
+			var maudioOption = new window.GRender.TextSprite(0, 0, null, 87, 15);
+            maudioOption.color = "black";
+            maudioOption.center = true;
+			maudioOption.text = `Change menu music (${optionsData.menuMusic+1})`;
 
             var selected = await runMenu([
                         new window.GRender.Sprite(0, 0, window.files.menuStuff.back, 50, 15),
                         fullscreenOption,
-						hdOption
+						hdOption,
+						maudioOption
                     ], true, optionMenuIndex,
 					new window.GRender.Sprite(0, 0, window.files.menuStuff.optionsHeader, 231, 45));
             optionMenuIndex = selected;
@@ -150,6 +154,19 @@ window.doMenus = async function () {
                 optionsData.HDRendering = !optionsData.HDRendering;
                 updateSettings();
             }
+			if (selected == 3) {
+				var index = optionsData.menuMusic + 1;
+				if (typeof index !== "number") {
+					index = 0;
+				}
+				if (index > window.files.menumusicarray.length-1) {
+					index = 0;
+				}					
+                optionsData.menuMusic = index;
+                updateSettings();
+				stopMenuMusic();
+				playMenuMusic();
+            }
             break;
         default:
 			isInMenu = false;
@@ -157,6 +174,4 @@ window.doMenus = async function () {
 			break;
         }
     }
-    SonicmenuMusic.onended = () => {};
-    SonicmenuMusic.pause();
 }

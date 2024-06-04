@@ -3,6 +3,33 @@ var menumusic = null;
 var menuIndex = 0;
 var alphabetArray = null; //Was used originally for text, but it was unessasary so its just null for now.
 var framecount = 0;
+
+window.gvbsonicMenuMusic = null;
+
+function stopMenuMusic () {
+	var music = window.gvbsonicMenuMusic;
+	if (music) {
+		music.onended = function () {};
+		music.pause();
+	}
+	window.gvbsonicMenuMusic = null;
+}
+
+function playMenuMusic () {
+	if (!window.gvbsonicMenuMusic) {
+		var music = null;
+		function playmusic() {
+			music = new window.AudioApiReplacement(window.files.menumusicarray[optionsData.menuMusic]);
+			music.looped = true;
+			music.setVolume(1);
+			music.play();
+			music.onended = playmusic;
+			window.gvbsonicMenuMusic = music;
+		}
+		playmusic();
+	}
+}
+
 async function runMenu(menusprites, scrolling, indexOfMenu, headerSpr) {
     window.transitionFadeOut();
     window.sprites = [];
@@ -25,7 +52,7 @@ async function runMenu(menusprites, scrolling, indexOfMenu, headerSpr) {
     }
     var canMoveMenu = true;
     var itemSelected = false;
-    document.onkeydown = async function (e) {
+    gvbsonic.handleKeyDown = async function (e) {
         if (canMoveMenu) {
             if (e.key == "ArrowUp") {
                 menuIndex -= 1;
@@ -99,10 +126,13 @@ async function runMenu(menusprites, scrolling, indexOfMenu, headerSpr) {
     while (i < menuSprites.length) {
         var menuSprite = menuSprites[i];
         menuSprite.x = 0;
-        if (!scrolling) {
-            menuSprite.y = 70 * (menuSprites.length - 1);
-        } else {
-			menuSprite.y += (100 * (menuIndex - i)) * -1;
+        
+		if (!scrolling) {
+			menuSprite.y = (100 * (0 - i)) * -1;
+			menuSprite.y -= (100 * (0 - menuSprites.length/2)) * -1;
+			menuSprite.y += 50;
+		} else {
+			menuSprite.y = (100 * (menuIndex - i)) * -1;
 		}
         //menuSprite.x += (30 * (menuIndex - i));
         menuSprite.scale = 0;
@@ -148,6 +178,9 @@ async function runMenu(menusprites, scrolling, indexOfMenu, headerSpr) {
                 }
                 targetScale += Math.cos(framecount / 15) * 0.1;
             } else {
+				if (itemSelected) {
+					menuSprite.x -= 0.5;
+				}
 			}
             if (menuSprite.type == "text") {
                 targetScale = 1;

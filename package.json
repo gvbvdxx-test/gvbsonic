@@ -1,6 +1,6 @@
 {
     "name": "gvbsonic",
-    "version": "1.8.0",
+    "version": "1.8.5",
     "description": "Gvbvdxx Sonic Engine",
     "main": "main.js",
 	"productName": "Gvbvdxx Sonic Engine",
@@ -22,5 +22,15 @@
     "devDependencies": {
         "electron": "^25.2.0",
         "electron-builder": "^24.4.0"
-    }
+    },
+	"build": {
+		"asar": true,
+		"extraResources": [
+			{
+				"from": "./template_mods",
+				"to": "../mods",
+				"filter": []
+			}
+		]
+	}
 }

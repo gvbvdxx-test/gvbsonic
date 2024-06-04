@@ -151,12 +151,12 @@ window.editor = {
     events: {
         emit: function (name, ...values) {
             this[name].forEach((f) => {
-                f.apply(window.gvbsonic, values);
+                f.apply(window.editor, values);
             });
         },
         emitAsync: async function (name, ...values) {
             for (var f of this[name]) {
-                await f.apply(window.gvbsonic, values);
+                await f.apply(window.editor, values);
             }
         },
 		

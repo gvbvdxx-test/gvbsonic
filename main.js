@@ -97,7 +97,17 @@ if (!isServer) {
                                     click: async(menuitem, window) => {
                                         window.webContents.executeJavaScript("window.debugModeEnabled = !window.debugModeEnabled;");
                                     }
-                                }
+                                }, {
+									label: "Make this shut up!",
+									click: function (menuitem, window) {
+										window.webContents.audioMuted = true;
+									}
+								}, {
+									label: "Ok, I want to hear it again.",
+									click: function (menuitem, window) {
+										window.webContents.audioMuted = false;
+									}
+								}
 
                             ]
                         }

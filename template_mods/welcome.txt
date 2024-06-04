@@ -1,0 +1,3 @@
+This is a folder for your own modifications, the most basic thing is a override of another file.
+To do this, place folders from "res" to this "mods" folder.
+You can also try to find some tutorials (if there are any) to make things.

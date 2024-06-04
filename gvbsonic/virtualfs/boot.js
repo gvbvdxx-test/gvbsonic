@@ -200,7 +200,6 @@
 				amount += 1;
 				progress(amount,length);
             }
-			console.log(dirMap);
 			await window.loadVirtualModules(dirMap, progress);
 			injectScripts();
         }
