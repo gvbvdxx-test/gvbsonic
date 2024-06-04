@@ -230,6 +230,19 @@ if (isElectron && !window.virtualFSUsed) { //This is what happens when you start
 	}
 }
 
+//Inputs here.
+
+setInterval(() => {
+	if (window.gvbsonic) {
+		document.onkeydown = function (e) {
+			gvbsonic.keyInput(true,e.key);	
+		};
+		document.onkeyup = function (e) {
+			gvbsonic.keyInput(false,e.key);	
+		};
+	}
+},1000/60);
+
 //Just used to load the image for the loading screen.
 (async function () {
     document.getElementById("loadingtext").src = await window.getAssetURL("res/loadingscreen/loading.png");

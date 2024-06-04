@@ -164,11 +164,12 @@ try {
 				var dir = [];
 				for (var item of easyProcessArray) {
 					dir.push(item);
-					dirs[dir.join("/")] = true;
-					dirMap[dir.join("/")] = {
-						name: item,
-						isDir: true
-					};
+					if (!dirMap[dir.join("/")]) {
+						dirMap[dir.join("/")] = {
+							name: item,
+							isDir: true
+						};
+					}
 				}
 			}
 
@@ -183,8 +184,10 @@ try {
 
             class VirtualFS {
                 constructor() {
-                    this.existsSync = doesExist;
                 }
+				existsSync (path) {
+					return doesExist(path);
+				}
 				
 				mkdirSync (path) {
 					var dirs = {};

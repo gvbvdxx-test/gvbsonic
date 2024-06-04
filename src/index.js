@@ -29,7 +29,9 @@ window.gvbsonic = {
         playlevelmusic: [],
         settitle: [],
         tileupdate: [],
-		loadtile: []
+		loadtile: [],
+		keydown: [],
+		keyup: []
     },
     addEventListener: function (eventName, func) {
         if (this.events[eventName]) {
@@ -82,7 +84,27 @@ window.gvbsonic = {
     getTails: function () {
         return window.CPUTails;
     },
-    saveData: window.gvbsonicSaveData
+    saveData: window.gvbsonicSaveData,
+	//Key inputs.
+	keyInput: function (down,key) {
+		if (down) {
+			if (gvbsonic.handleKeyDown) {
+				gvbsonic.handleKeyDown({
+					key:key
+				});
+			}
+			gvbsonic.events.emit("keydown",key);
+		} else {
+			if (gvbsonic.handleKeyDown) {
+				gvbsonic.handleKeyUp({
+					key:key
+				});
+			}
+			gvbsonic.events.emit("keyup",key);
+		}
+	},
+	handleKeyDown: function () {},
+	handleKeyUp: function () {}
 };
 
 window.debugModeEnabled = false;
@@ -3180,7 +3202,7 @@ window.startEngine = async function startEngine(
         }
     }
 
-    document.onkeydown = async function (e) {
+    gvbsonic.handleKeyDown = async function (e) {
         if (!leavingLevel) {
             if (e.key == "ArrowLeft") {
                 sonic.left = true;
@@ -3211,7 +3233,7 @@ window.startEngine = async function startEngine(
             }
         }
     };
-    document.onkeyup = function (e) {
+   gvbsonic.handleKeyUp = function (e) {
         if (e.key == "ArrowLeft") {
             sonic.left = false;
         }

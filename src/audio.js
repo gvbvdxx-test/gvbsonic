@@ -39,6 +39,58 @@ window.loadSoundURL = async function loadSoundURL(url) {
         window.alert(e);
     }
 };
+window.soundSystem = {
+	events: {
+        emit: function (name, ...values) {
+            this[name].forEach((f) => {
+                f.apply(window.soundSystem, values);
+            });
+        },
+        emitAsync: async function (name, ...values) {
+            for (var f of this[name]) {
+                await f.apply(window.soundSystem, values);
+            }
+        },
+		_volumechanged: [],
+        volumechanged: [],
+		soundcreated: [],
+		soundplayed: [],
+		soundpaused: []
+    },
+    addEventListener: function (eventName, func) {
+        if (this.events[eventName]) {
+            this.events[eventName].push(func);
+        }
+    },
+    removeEventListener: function (eventName, func) {
+        if (this.events[eventName]) {
+
+            var newEventArray = [];
+
+            var removed = false;
+
+            for (var event of this.events[eventName]) {
+                if (removed) {
+                    newEventArray.push(event);
+                } else {
+                    if (event !== func) {
+                        newEventArray.push(event);
+                        removed = true;
+                    }
+                }
+            }
+
+            this.events[eventName] = newEventArray;
+
+        }
+    }
+};
+window.soundSystem.volumeMultiplier = 1;
+window.soundSystem.setVolumeMultiplier = function (volume) {
+	window.soundSystem.volumeMultiplier = volume;
+	window.soundSystem.events.emit("_volumechanged");
+	window.soundSystem.events.emit("volumechanged",volume);
+};
 var preload = {};
 class AudioApiReplacement {
     constructor(data) {
@@ -50,8 +102,16 @@ class AudioApiReplacement {
         this.playbackRate = 1;
         this.looped = false;
 		this.startVol = 1;
+		this.volume = 1;
+		var me = this;
+		window.soundSystem.addEventListener("_volumechanged", function () {
+			me.setVolume(me.volume);
+		});
+		me.setVolume(me.volume);
+		window.soundSystem.events.emit("soundcreated",this);
     }
     play(time) {
+		window.soundSystem.events.emit("soundplayed",this,time);
         if (this.data) {
             if (!this.source) {
                 function loadSample(url) {
@@ -118,6 +178,7 @@ class AudioApiReplacement {
             this.source = null;
             this.gainNode = null;
         }
+		window.soundSystem.events.emit("soundpaused",this);
     }
     remove() {
         delete this;
@@ -137,14 +198,15 @@ class AudioApiReplacement {
 	
     setVolume(value) {
         if (this.source) {
-            this.gainNode.gain.value = value;
-			this.startVol = value;
+            this.gainNode.gain.value = value*window.soundSystem.volumeMultiplier;
+			this.startVol = value*window.soundSystem.volumeMultiplier;
         } else {
-            this.startVol = value;
+            this.startVol = value*window.soundSystem.volumeMultiplier;
         }
+		this.volume = value;
     }
     getVolume() {
-        return this.gainNode.gain.value;
+        return this.volume;
     }
 }
 window.AudioApiReplacement = AudioApiReplacement;

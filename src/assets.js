@@ -70,7 +70,13 @@ async function loadAssets() {
 
             newmenubg: await window.loadImage("res/menu/latest/newmenubg.png"),
 			
-			characterSelect: await window.loadImage("res/menu/character-select.png"),
+			//Character select stuff.
+			
+			characterSelect: {
+				bg: await window.loadImage("res/menu/character-select.png"),
+				text: await window.loadImage("res/menu/character-select-guide.png"),
+				arrow: await window.loadImage("res/menu/character-select-arrow.png")
+			},
 			
 			//menu headers.
 			
@@ -130,6 +136,12 @@ async function loadAssets() {
             main: await window.loadAudioFile("res/music/menu/Menu.ogg"),
 			character: await window.loadAudioFile("res/music/menu/Menu.ogg"),
         };
+		window.files.menumusicarray = [
+			await window.loadAudioFile("res/music/menu/Menu.ogg"),
+			await window.loadAudioFile("res/music/menu/ChoiceChooser.mp3"),
+			await window.loadAudioFile("res/music/menu/SWD_CharacterSelect.ogg"),
+			await window.loadAudioFile("res/music/menu/SonicRMenu.wav"),
+        ];
     });
     addloaderlistener(async function () {
         var sfxpcharge = await window.loadAudioFile("res/sfx/PeelCharge.wav");

@@ -8,7 +8,9 @@ async function initCharData() {
 			enableCPU:true,
 			CPUCharacter:"s3tails",
 			
-			playerCharacter:"s3sonic"
+			playerCharacter:"s3sonic",
+			
+			yOffset: 1
 		},
 		"s3sonic",
 		"s3tails",
@@ -57,6 +59,7 @@ async function initCharData() {
 		"maniaSonic": {
 			name:"Sonic",
 			fullname:"Mania Sonic",
+			characterSelectYOffset: 2,
 			scale:1,
 			angle:1,
 			smoothAngles:true,

@@ -58,11 +58,11 @@ window.titleScreen = async function () {
         flash
     ];
 
-    document.onkeydown = async function (event) {
+    gvbsonic.handleKeyDown = async function (event) {
         if (event.key == "Enter") {
             titleMusic.onended = function () {};
             titleshowing = false;
-            document.onkeydown = null;
+            gvbsonic.handleKeyDown = null;
             menuMoveSound = new window.AudioApiReplacement(window.files.sfx.menuaccept);
             menuMoveSound.setVolume(1);
             menuMoveSound.play();
@@ -118,7 +118,7 @@ window.titleScreen = async function () {
 
         flash.trs += (0 - flash.trs) / 30;
     }
-    document.onkeydown = null;
+    gvbsonic.handleKeyDown = null;
     await window.transitionFadeIn();
     window.sprites = [];
     await window.waitAsync(0.3);
