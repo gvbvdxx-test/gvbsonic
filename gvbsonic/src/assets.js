@@ -94,6 +94,17 @@ async function loadAssets() {
             back: await window.loadImage("res/menu/latest/back.png")
         };
     });
+	addloaderlistener(async function () {
+        window.files.teFonts = {
+            gold: await window.loadFont("gold"),
+			silver: await window.loadFont("silver")
+        };
+		window.files.hud = {
+			rings: await window.loadImage("res/hud/rings.png"),
+			redRings: await window.loadImage("res/hud/rings_red.png"),
+			score: await window.loadImage("res/hud/score.png")
+		};
+    });
     addloaderlistener(async function () {
         window.files.signposts = {
             sonic: await window.loadImage(
@@ -112,12 +123,9 @@ async function loadAssets() {
     });
     addloaderlistener(async function () {
         window.files.tileScales = {};
-        window.files.springspritesheet = JSON.parse(
-                await(await fetch("res/items/spring/red.json")).text());
-        window.files.monitorSpriteSheet = JSON.parse(
-                await(await fetch("res/items/monitor/monitor.json")).text());
-        window.files.gvbsonicLogoSpritesheet = JSON.parse(
-                await(await fetch("res/title/gvbsonic.json")).text());
+        window.files.springspritesheet = await window.fetchJSON("res/items/spring/red.json");
+        window.files.monitorSpriteSheet = await window.fetchJSON("res/items/monitor/monitor.json");
+        window.files.gvbsonicLogoSpritesheet = await window.fetchJSON("res/title/gvbsonic.json");
         window.files.gvbsonicLogo = await window.loadImage(
                 "res/title/gvbsonic.png");
         window.files.gvbsonicBG = await window.loadImage(
@@ -201,11 +209,12 @@ async function loadAssets() {
             window.levelspr = new window.GRender.Sprite(0, 0, null, 32, 32);
             var collisioncvs = document.createElement("canvas");
             var ctx = collisioncvs.getContext("2d");
-            collisioncvs.width = 3;
-            collisioncvs.height = 3;
-            ctx.fillRect(0, 0, 3, 3);
+            collisioncvs.width = 1;
+            collisioncvs.height = 1;
+            ctx.fillRect(0, 0, collisioncvs.width, collisioncvs.height);
+			window.files.pointcollisionimage = collisioncvs;
             window.files.pointcollision = new window.CollisionMask(
-                    ctx.getImageData(0, 0, 3, 3));
+                    ctx.getImageData(0, 0, collisioncvs.width, collisioncvs.height));
         } catch (e) {
             window.alert(e);
         }

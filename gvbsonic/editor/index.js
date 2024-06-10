@@ -117,13 +117,19 @@ window.loadImage = async function (url) {
 var enablekey = false;
 var currenttile = 0;
 window.disableYLock = false;
+window.disableXLock = false;
 var ylock = document.getElementById("ylock");
+var xlock = document.getElementById("xlock");
 ylock.oninput = function () {
     window.disableYLock = ylock.checked;
 };
+xlock.oninput = function () {
+    window.disableXLock = xlock.checked;
+};
 setInterval(() => {
     ylock.checked = window.disableYLock;
-}, 1000 / 60)
+	xlock.checked = window.disableXLock;
+}, 1000 / 60);
 var gridtoggle = true;
 var selectedlayer = 0;
 window.fetchJSON = async function fetchJSON(j,useUnmodified) {
@@ -334,6 +340,7 @@ window.editor = {
 			editor.events.emit("loadlevel", j);
             reloadBG();
             window.disableYLock = j.disableYLock;
+			window.disableXLock = j.disableXLock;
             levels = [];
             for (var obj of j.tiles) {
 				var spr = addTile(obj.x, obj.y * -1, obj.id, obj.type, obj.layer, obj.text, obj.dir);
@@ -343,6 +350,7 @@ window.editor = {
 		window.saveLevel = function () {
             var j = {
                 disableYLock: window.disableYLock,
+				disableXLock: window.disableXLock,
                 background: bg.value,
                 BGM: bgm.value,
 				title: levelTitle.value,
@@ -581,7 +589,7 @@ window.editor = {
                     scroll[1] = 0;
                 }
             }
-			if (xLimiter) {
+			if (xLimiter && !window.disableXLock) {
 				if (scroll[0] > 0) {
 					scroll[0] = 0;
 				}

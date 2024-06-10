@@ -241,7 +241,7 @@ window.doCharacterSelect = async function (backtomenu, next) {
                 i += 1;
             }
 
-            var selectedID = chars[index];
+            var selectedID = chars[selected];
             if (charInfo[selectedID]) {
                 window.gvbsonicUseTailsNPC = false;
                 window.gvbsonicSelectedChar = selectedID;
