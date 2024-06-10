@@ -8,5 +8,8 @@
   "SonicMania_GreenHillZone1":{
 	  "path":"res/music/greengrass/SM_GreenHillZone.mp3",
 	  "loop":14.42380
+  },
+  "Test Level":{
+	  "path":"res/music/test-level.wav"
   }
 }

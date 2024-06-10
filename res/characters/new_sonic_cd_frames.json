@@ -1,0 +1,446 @@
+{
+	"spriteSheetWidth": 561,
+	"spriteSheetHeight": 306,
+	"sprites": [
+		{
+			"x": 0,
+			"y": 0,
+			"width": 40,
+			"height": 44,
+			"name": "spring4",
+			"image": {}
+		},
+		{
+			"x": 41,
+			"y": 0,
+			"width": 40,
+			"height": 44,
+			"name": "spring3",
+			"image": {}
+		},
+		{
+			"x": 82,
+			"y": 0,
+			"width": 40,
+			"height": 44,
+			"name": "spring2",
+			"image": {}
+		},
+		{
+			"x": 123,
+			"y": 0,
+			"width": 40,
+			"height": 43,
+			"name": "spring1",
+			"image": {}
+		},
+		{
+			"x": 164,
+			"y": 0,
+			"width": 40,
+			"height": 43,
+			"name": "spring0",
+			"image": {}
+		},
+		{
+			"x": 205,
+			"y": 0,
+			"width": 50,
+			"height": 50,
+			"name": "skid3",
+			"image": {}
+		},
+		{
+			"x": 256,
+			"y": 0,
+			"width": 50,
+			"height": 50,
+			"name": "skid2",
+			"image": {}
+		},
+		{
+			"x": 307,
+			"y": 0,
+			"width": 50,
+			"height": 50,
+			"name": "skid1",
+			"image": {}
+		},
+		{
+			"x": 358,
+			"y": 0,
+			"width": 50,
+			"height": 50,
+			"name": "turn",
+			"image": {}
+		},
+		{
+			"x": 409,
+			"y": 0,
+			"width": 50,
+			"height": 50,
+			"name": "hang2",
+			"image": {}
+		},
+		{
+			"x": 460,
+			"y": 0,
+			"width": 50,
+			"height": 50,
+			"name": "hang1",
+			"image": {}
+		},
+		{
+			"x": 0,
+			"y": 51,
+			"width": 50,
+			"height": 50,
+			"name": "drowned",
+			"image": {}
+		},
+		{
+			"x": 51,
+			"y": 51,
+			"width": 50,
+			"height": 50,
+			"name": "died",
+			"image": {}
+		},
+		{
+			"x": 102,
+			"y": 51,
+			"width": 50,
+			"height": 50,
+			"name": "peel4",
+			"image": {}
+		},
+		{
+			"x": 153,
+			"y": 51,
+			"width": 50,
+			"height": 50,
+			"name": "peel3",
+			"image": {}
+		},
+		{
+			"x": 204,
+			"y": 51,
+			"width": 50,
+			"height": 50,
+			"name": "peel2",
+			"image": {}
+		},
+		{
+			"x": 255,
+			"y": 51,
+			"width": 50,
+			"height": 50,
+			"name": "peel1",
+			"image": {}
+		},
+		{
+			"x": 306,
+			"y": 51,
+			"width": 50,
+			"height": 50,
+			"name": "push4",
+			"image": {}
+		},
+		{
+			"x": 357,
+			"y": 51,
+			"width": 50,
+			"height": 50,
+			"name": "push3",
+			"image": {}
+		},
+		{
+			"x": 408,
+			"y": 51,
+			"width": 50,
+			"height": 50,
+			"name": "push2",
+			"image": {}
+		},
+		{
+			"x": 459,
+			"y": 51,
+			"width": 50,
+			"height": 50,
+			"name": "push1",
+			"image": {}
+		},
+		{
+			"x": 510,
+			"y": 51,
+			"width": 50,
+			"height": 50,
+			"name": "hit2",
+			"image": {}
+		},
+		{
+			"x": 0,
+			"y": 102,
+			"width": 50,
+			"height": 50,
+			"name": "hit1",
+			"image": {}
+		},
+		{
+			"x": 51,
+			"y": 102,
+			"width": 32,
+			"height": 32,
+			"name": "roll_shine",
+			"image": {}
+		},
+		{
+			"x": 84,
+			"y": 102,
+			"width": 32,
+			"height": 32,
+			"name": "roll4",
+			"image": {}
+		},
+		{
+			"x": 117,
+			"y": 102,
+			"width": 32,
+			"height": 32,
+			"name": "roll3",
+			"image": {}
+		},
+		{
+			"x": 150,
+			"y": 102,
+			"width": 32,
+			"height": 32,
+			"name": "roll2",
+			"image": {}
+		},
+		{
+			"x": 183,
+			"y": 102,
+			"width": 32,
+			"height": 32,
+			"name": "roll1",
+			"image": {}
+		},
+		{
+			"x": 216,
+			"y": 102,
+			"width": 50,
+			"height": 50,
+			"name": "sprint4",
+			"image": {}
+		},
+		{
+			"x": 267,
+			"y": 102,
+			"width": 50,
+			"height": 50,
+			"name": "sprint3",
+			"image": {}
+		},
+		{
+			"x": 318,
+			"y": 102,
+			"width": 50,
+			"height": 50,
+			"name": "sprint2",
+			"image": {}
+		},
+		{
+			"x": 369,
+			"y": 102,
+			"width": 50,
+			"height": 50,
+			"name": "sprint1",
+			"image": {}
+		},
+		{
+			"x": 420,
+			"y": 102,
+			"width": 50,
+			"height": 50,
+			"name": "jog6",
+			"image": {}
+		},
+		{
+			"x": 0,
+			"y": 153,
+			"width": 50,
+			"height": 50,
+			"name": "jog5",
+			"image": {}
+		},
+		{
+			"x": 51,
+			"y": 153,
+			"width": 50,
+			"height": 50,
+			"name": "jog4",
+			"image": {}
+		},
+		{
+			"x": 102,
+			"y": 153,
+			"width": 50,
+			"height": 50,
+			"name": "jog3",
+			"image": {}
+		},
+		{
+			"x": 153,
+			"y": 153,
+			"width": 50,
+			"height": 50,
+			"name": "jog2",
+			"image": {}
+		},
+		{
+			"x": 204,
+			"y": 153,
+			"width": 50,
+			"height": 50,
+			"name": "jog1",
+			"image": {}
+		},
+		{
+			"x": 255,
+			"y": 153,
+			"width": 50,
+			"height": 50,
+			"name": "victory2",
+			"image": {}
+		},
+		{
+			"x": 306,
+			"y": 153,
+			"width": 50,
+			"height": 50,
+			"name": "victory1",
+			"image": {}
+		},
+		{
+			"x": 357,
+			"y": 153,
+			"width": 50,
+			"height": 50,
+			"name": "fall3",
+			"image": {}
+		},
+		{
+			"x": 408,
+			"y": 153,
+			"width": 50,
+			"height": 50,
+			"name": "fall2",
+			"image": {}
+		},
+		{
+			"x": 459,
+			"y": 153,
+			"width": 50,
+			"height": 50,
+			"name": "fall1",
+			"image": {}
+		},
+		{
+			"x": 510,
+			"y": 153,
+			"width": 50,
+			"height": 50,
+			"name": "out_of_here6",
+			"image": {}
+		},
+		{
+			"x": 0,
+			"y": 204,
+			"width": 50,
+			"height": 50,
+			"name": "out_of_here5",
+			"image": {}
+		},
+		{
+			"x": 51,
+			"y": 204,
+			"width": 50,
+			"height": 50,
+			"name": "out_of_here4",
+			"image": {}
+		},
+		{
+			"x": 102,
+			"y": 204,
+			"width": 50,
+			"height": 50,
+			"name": "out_of_here3",
+			"image": {}
+		},
+		{
+			"x": 153,
+			"y": 204,
+			"width": 50,
+			"height": 50,
+			"name": "out_of_here2",
+			"image": {}
+		},
+		{
+			"x": 204,
+			"y": 204,
+			"width": 50,
+			"height": 50,
+			"name": "out_of_here1",
+			"image": {}
+		},
+		{
+			"x": 255,
+			"y": 204,
+			"width": 50,
+			"height": 50,
+			"name": "duck",
+			"image": {}
+		},
+		{
+			"x": 306,
+			"y": 204,
+			"width": 50,
+			"height": 50,
+			"name": "look_up",
+			"image": {}
+		},
+		{
+			"x": 357,
+			"y": 204,
+			"width": 50,
+			"height": 50,
+			"name": "bored3",
+			"image": {}
+		},
+		{
+			"x": 408,
+			"y": 204,
+			"width": 50,
+			"height": 50,
+			"name": "bored2",
+			"image": {}
+		},
+		{
+			"x": 459,
+			"y": 204,
+			"width": 50,
+			"height": 50,
+			"name": "bored1",
+			"image": {}
+		},
+		{
+			"x": 510,
+			"y": 204,
+			"width": 50,
+			"height": 50,
+			"name": "idle",
+			"image": {}
+		}
+	]
+}

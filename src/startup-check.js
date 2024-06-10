@@ -28,6 +28,13 @@ var scripts = [
 	
 	////////////////////////////////////////////////////////////////////
 	
+	//Font engine, this does not process the gvbvdxx render fonts,
+	//but instead renders a spritesheet font quickly for use as a normal sprite in gvbvdxx renderer.
+	
+	"src/text-engine.js?n=1",
+	
+	////////////////////////////////////////////////////////////////////
+	
 	//Used to change palletes, might make this less CPU intensive sometime.
 	
 	"src/effect-system/effects.js?n=1",

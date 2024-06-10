@@ -2,67 +2,67 @@
 //the offset position is optional, its only used on some sprites.
 
 window.files.sonicspritesheet = {
-	"spriteSheetWidth": 627,
+	"spriteSheetWidth": 595,
 	"spriteSheetHeight": 237,
 	"sprites": [
 		{
 			"x": 0,
 			"y": 0,
-			"width": 40,
+			"width": 64,
 			"height": 40,
-			"name": "balancel1.png",
+			"name": "walk7.png",
 			"image": {}
 		},
 		{
-			"x": 41,
+			"x": 65,
 			"y": 0,
-			"width": 40,
+			"width": 64,
 			"height": 40,
-			"name": "balancel2.png",
+			"name": "walk6.png",
 			"image": {}
 		},
 		{
-			"x": 82,
+			"x": 130,
 			"y": 0,
-			"width": 40,
+			"width": 64,
 			"height": 40,
-			"name": "balancel3.png",
+			"name": "walk3.png",
 			"image": {}
 		},
 		{
-			"x": 123,
+			"x": 195,
 			"y": 0,
-			"width": 40,
+			"width": 64,
 			"height": 40,
-			"name": "balancer1.png",
+			"name": "walk2.png",
 			"image": {}
 		},
 		{
-			"x": 164,
+			"x": 260,
 			"y": 0,
-			"width": 40,
-			"height": 48,
-			"name": "balancer2.png",
-			"image": {}
-		},
-		{
-			"x": 205,
-			"y": 0,
-			"width": 32,
-			"height": 48,
-			"name": "balancer3.png",
-			"image": {}
-		},
-		{
-			"x": 238,
-			"y": 0,
-			"width": 40,
+			"width": 64,
 			"height": 40,
-			"name": "brake1.png",
+			"name": "walk4.png",
 			"image": {}
 		},
 		{
-			"x": 279,
+			"x": 325,
+			"y": 0,
+			"width": 64,
+			"height": 40,
+			"name": "walk5.png",
+			"image": {}
+		},
+		{
+			"x": 390,
+			"y": 0,
+			"width": 64,
+			"height": 40,
+			"name": "walk8.png",
+			"image": {}
+		},
+		{
+			"x": 455,
 			"y": 0,
 			"width": 40,
 			"height": 40,
@@ -70,7 +70,7 @@ window.files.sonicspritesheet = {
 			"image": {}
 		},
 		{
-			"x": 320,
+			"x": 496,
 			"y": 0,
 			"width": 32,
 			"height": 40,
@@ -78,7 +78,7 @@ window.files.sonicspritesheet = {
 			"image": {}
 		},
 		{
-			"x": 353,
+			"x": 529,
 			"y": 0,
 			"width": 32,
 			"height": 40,
@@ -86,7 +86,7 @@ window.files.sonicspritesheet = {
 			"image": {}
 		},
 		{
-			"x": 386,
+			"x": 562,
 			"y": 0,
 			"width": 40,
 			"height": 40,
@@ -304,57 +304,57 @@ window.files.sonicspritesheet = {
 		{
 			"x": 172,
 			"y": 147,
-			"width": 64,
+			"width": 40,
 			"height": 40,
-			"name": "walk2.png",
+			"name": "balancel1.png",
 			"image": {}
 		},
 		{
-			"x": 237,
+			"x": 213,
 			"y": 147,
-			"width": 64,
+			"width": 40,
 			"height": 40,
-			"name": "walk3.png",
+			"name": "balancel2.png",
 			"image": {}
 		},
 		{
-			"x": 302,
+			"x": 254,
 			"y": 147,
-			"width": 64,
+			"width": 40,
 			"height": 40,
-			"name": "walk4.png",
+			"name": "balancel3.png",
 			"image": {}
 		},
 		{
-			"x": 367,
+			"x": 295,
 			"y": 147,
-			"width": 64,
+			"width": 40,
 			"height": 40,
-			"name": "walk5.png",
+			"name": "balancer1.png",
 			"image": {}
 		},
 		{
-			"x": 432,
+			"x": 336,
 			"y": 147,
-			"width": 64,
-			"height": 40,
-			"name": "walk6.png",
+			"width": 40,
+			"height": 48,
+			"name": "balancer2.png",
 			"image": {}
 		},
 		{
-			"x": 497,
+			"x": 377,
 			"y": 147,
-			"width": 64,
-			"height": 40,
-			"name": "walk7.png",
+			"width": 32,
+			"height": 48,
+			"name": "balancer3.png",
 			"image": {}
 		},
 		{
-			"x": 562,
+			"x": 410,
 			"y": 147,
-			"width": 64,
+			"width": 40,
 			"height": 40,
-			"name": "walk8.png",
+			"name": "brake1.png",
 			"image": {}
 		}
 	]

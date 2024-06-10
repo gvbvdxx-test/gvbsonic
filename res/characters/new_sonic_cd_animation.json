@@ -1,0 +1,144 @@
+{
+    "walk": {
+        "frames": [
+            "jog1",
+			"jog2",
+			"jog3",
+			"jog4",
+			"jog5",
+			"jog6"
+        ],
+        "fps": 20,
+        "loop": true
+    },
+    "jog": {
+        "frames": [
+            "jog1",
+			"jog2",
+			"jog3",
+			"jog4",
+			"jog5",
+			"jog6"
+        ],
+        "fps": 30,
+        "loop": true
+    },
+    "hurt": {
+        "frames": [
+            "hit1",
+			"hit2"
+        ],
+        "fps": 25,
+        "loop": true
+    },
+    "skid": {
+        "frames": [
+            "skid1",
+			"skid2",
+			"skid3"
+        ],
+        "fps": 32,
+        "loop": true
+    },
+    "spindash": {
+        "frames": [
+            "roll1",
+			"roll_shine",
+			"roll2",
+			"roll_shine",
+			"roll3",
+			"roll_shine",
+			"roll4",
+			"roll_shine",
+			"roll5",
+			"roll_shine"
+        ],
+        "fps": 30,
+        "loop": true
+    },
+    "died": {
+        "frames": [
+            "died"
+        ],
+        "fps": 60,
+        "loop": true
+    },
+    "spring": {
+        "frames": [
+            "spring0",
+			"spring1",
+			"spring2",
+			"spring3",
+			"spring4"
+        ],
+        "fps": 25,
+        "loop": true
+    },
+    "duck": {
+        "frames": [
+            "duck"
+        ],
+        "fps": 10,
+        "loop": false
+    },
+    "lookup": {
+        "frames": [
+            "look_up"
+        ],
+        "fps": 10,
+        "loop": false
+    },
+    "stand": {
+        "frames": [
+            "idle"
+        ],
+        "fps": 60,
+        "loop": true
+    },
+    "run": {
+        "frames": [
+            "sprint1",
+			"sprint2",
+			"sprint3",
+			"sprint4"
+        ],
+        "fps": 15,
+        "loop": true
+    },
+    "runfastest": {
+        "frames": [
+            "peel1",
+			"peel2",
+			"peel3",
+			"peel4"
+        ],
+        "fps": 20,
+        "loop": true
+    },
+    "push": {
+        "frames": [
+            "push1",
+			"push2",
+			"push3",
+			"push4"
+        ],
+        "fps": 3,
+        "loop": true
+    },
+    "roll": {
+        "frames": [
+            "roll1",
+			"roll_shine",
+			"roll2",
+			"roll_shine",
+			"roll3",
+			"roll_shine",
+			"roll4",
+			"roll_shine",
+			"roll5",
+			"roll_shine"
+        ],
+        "fps": 40,
+        "loop": true
+    }
+}

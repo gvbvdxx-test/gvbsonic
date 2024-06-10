@@ -29,9 +29,11 @@ window.gvbsonic = {
         playlevelmusic: [],
         settitle: [],
         tileupdate: [],
-		loadtile: [],
-		keydown: [],
-		keyup: []
+        loadtile: [],
+        keydown: [],
+        keyup: [],
+        gametick: [],
+        engineanimate: []
     },
     addEventListener: function (eventName, func) {
         if (this.events[eventName]) {
@@ -85,26 +87,26 @@ window.gvbsonic = {
         return window.CPUTails;
     },
     saveData: window.gvbsonicSaveData,
-	//Key inputs.
-	keyInput: function (down,key) {
-		if (down) {
-			if (gvbsonic.handleKeyDown) {
-				gvbsonic.handleKeyDown({
-					key:key
-				});
-			}
-			gvbsonic.events.emit("keydown",key);
-		} else {
-			if (gvbsonic.handleKeyDown) {
-				gvbsonic.handleKeyUp({
-					key:key
-				});
-			}
-			gvbsonic.events.emit("keyup",key);
-		}
-	},
-	handleKeyDown: function () {},
-	handleKeyUp: function () {}
+    //Key inputs.
+    keyInput: function (down, key) {
+        if (down) {
+            if (gvbsonic.handleKeyDown) {
+                gvbsonic.handleKeyDown({
+                    key: key
+                });
+            }
+            gvbsonic.events.emit("keydown", key);
+        } else {
+            if (gvbsonic.handleKeyDown) {
+                gvbsonic.handleKeyUp({
+                    key: key
+                });
+            }
+            gvbsonic.events.emit("keyup", key);
+        }
+    },
+    handleKeyDown: function () {},
+    handleKeyUp: function () {}
 };
 
 window.debugModeEnabled = false;
@@ -203,6 +205,44 @@ var cctx = collisioncvs.getContext("2d");
 collisioncvs.width = 600;
 collisioncvs.height = 360;
 collisioncvs.style.background = "grey";
+//Sadly, the origignal CollisonMask is not working like it was intended,
+//there are some weird clipping glitches and other things like that because of it.
+//This should fix all the weird glitches we get by using another collision engine,
+//this time by myself.
+function getIsPixelTransparent(ctx,x,y) {
+	var img = ctx.getImageData(x,y,1,1);
+	return (img.data[3] < 50);
+}
+function gvbvdxxsCollisionMask(ctx) {
+	var cvs = ctx.canvas;
+	var x = 0;
+	var y = 0;
+	this.cvs = cvs;
+	this.ctx = ctx;
+	var data = {};
+	while (y < cvs.height) {
+		x = 0;
+		while (x < cvs.width) {
+			if (!getIsPixelTransparent(ctx,x,y)) {
+				data[`${x}x${y}`] = true;
+			}
+			x += 1;
+		}
+		if (!getIsPixelTransparent(ctx,x,y)) {
+			data[`${x}x${y}`] = true;
+		}
+		y += 1;
+	}
+	this.data = data;
+}
+gvbvdxxsCollisionMask.prototype.collidesWith = function gvbvdxxsCollisionMask(other, x, y) {
+	var data = this.data;
+	if (data[`${x}x${y}`]) {
+		return true;
+	}
+	return false;
+}
+//Keeping the original here for compatibility sake.
 function CollisionMask(data) {
     this.w = data.width;
     this.h = data.height;
@@ -548,19 +588,27 @@ async function runAnimation(spr, name, options) {
     if (!spr.animator) {
         spr.animator = {
             fpsMultiplier: 1,
+            animationCounter: 0
         };
     }
     if (spr.animationData) {
         if (spr.animationData[name]) {
             spr.currentAnimation = name;
+            var id = spr.animator.animationCounter += 1;
+            spr.animator.animationCounter = id;
             var anim = spr.animationData[name];
             while (true) {
                 var animindex = 0;
-                if (!(spr.currentAnimation == name)) {
+                if (
+                    (spr.currentAnimation !== name) ||
+                    (spr.animator.animationCounter !== id)) {
                     return;
                 }
                 while (Math.round(animindex) < anim.frames.length) {
-                    if (!(spr.currentAnimation == name)) {
+                    if (spr.currentAnimation !== name) {
+                        return;
+                    }
+                    if (spr.animator.animationCounter !== id) {
                         return;
                     }
                     var frame = anim.frames[Math.round(animindex)];
@@ -1208,8 +1256,8 @@ async function resetEngineValues(
     spr.freezemovement = false;
     spr.angleDir = 90;
     if (doscroll) {
-        spr2.x = scrollpos[0];
-        spr2.y = scrollpos[1];
+        spr2.x = -scrollpos[0];
+        spr2.y = -scrollpos[1];
         spr.doscroll = true;
     }
 
@@ -1253,6 +1301,8 @@ async function resetEngineValues(
     spr.jumppower = 7.5;
     //the actual gravity, how strong you want gravity to be.
     spr.gravityPower = 0.21875;
+    //max gravity speed, if sonic exeeds this, his gravity will be kept at the max value.
+    spr.maxGravity = 21;
     //uncomment this to make jumping power more accurate.
     //spr.jumppower = 6.5;
 
@@ -1267,6 +1317,20 @@ async function resetEngineValues(
     spr.crouchTimer = 0;
     spr.lookupTimer = 0;
 
+    //Camera border offsets, border box scale, max camera speed, and some other camera stuff.
+
+    spr.horizontalBorderOffset = 0;
+    spr.verticalBorderOffset = 0;
+    spr.borderBoxScale = 1;
+    spr.maxCameraSpeed = 24;
+
+    var genScreenWidth = 320;
+    var genScreenHeight = 244;
+    spr.camBorderLeft = (genScreenWidth / 2) - 144;
+    spr.camBorderRight = (genScreenWidth / 2) - 160;
+
+    spr.camOnfloorTimerThingy = 0;
+
     //pause thingy idk.
 
     spr.paused = false;
@@ -1275,6 +1339,7 @@ async function resetEngineValues(
 
     spr.animator = {
         fpsMultiplier: 1,
+        animationCounter: 0
     };
 
     //empty out the death animation values.
@@ -1295,6 +1360,10 @@ async function resetEngineValues(
 
     spr.lastGroundAngle = 90;
 
+    //used for mods to tell the engine to stop using the default animations.
+
+    spr.animated = true;
+
     //Used to get if the engine is on the floor, or on a collidible object.
 
     spr.checkCollideBoth = function (x, y, sprthing) {
@@ -1314,6 +1383,147 @@ async function fixSprSpeed(spr) {
     spr.speed = Math.round(spr.speed * 1000) / 1000;
 
     spr.gravity = Math.round(spr.gravity * 1000) / 1000;
+}
+async function animateEngine(spr, spr2, checkcollide, soundplay) {
+    if (spr.tired) {
+        if (!(spr.currentAnimation == "fly-tired")) {
+            runAnimation(spr, "fly-tired");
+        }
+        spr.crouchTimer = 0;
+        spr.lookupTimer = 0;
+        spr.animator.fpsMultiplier = 1;
+    } else {
+        if (spr.flying) {
+            if (!(spr.currentAnimation == "fly")) {
+                runAnimation(spr, "fly");
+            }
+            spr.crouchTimer = 0;
+            spr.lookupTimer = 0;
+            spr.animator.fpsMultiplier = 1;
+        } else {
+            if (spr.hurtanim) {
+                if (!(spr.currentAnimation == "hurt")) {
+                    runAnimation(spr, "hurt");
+                }
+                spr.crouchTimer = 0;
+                spr.lookupTimer = 0;
+                spr.animator.fpsMultiplier = 1;
+            } else {
+                if (spr.spring) {
+                    if (!(spr.currentAnimation == "spring")) {
+                        runAnimation(spr, "spring");
+                    }
+                    spr.crouchTimer = 0;
+                    spr.lookupTimer = 0;
+                } else {
+                    if (spr.skidding) {
+                        if (!(spr.currentAnimation == "skid")) {
+                            runAnimation(spr, "skid");
+                        }
+                        spr.crouchTimer = 0;
+                        spr.lookupTimer = 0;
+                        soundplay("skid");
+                    } else {
+                        if (spr.spindash) {
+                            if (!(spr.currentAnimation == "spindash")) {
+                                runAnimation(spr, "spindash");
+                            }
+                            spr.crouchTimer = 0;
+                            spr.lookupTimer = 0;
+                            spr.animator.fpsMultiplier = 1;
+                        } else {
+                            if (spr.jumping || spr.rolling) {
+                                if (!(spr.currentAnimation == "roll")) {
+                                    runAnimation(spr, "roll");
+                                }
+                                spr.crouchTimer = 0;
+                                spr.lookupTimer = 0;
+                                spr.animator.fpsMultiplier = 1;
+                            } else {
+                                if (Math.abs(spr.savespeed) > 0.5) {
+                                    spr.crouchTimer = 0;
+                                    spr.lookupTimer = 0;
+                                    if (Math.abs(spr.savespeed * 5) > 73) {
+                                        if (!(spr.currentAnimation == "runfastest")) {
+                                            runAnimation(spr, "runfastest");
+                                        }
+                                        spr.animator.fpsMultiplier = 1;
+                                    } else {
+                                        if (Math.abs(spr.savespeed * 1) > 8) {
+                                            if (!(spr.currentAnimation == "run")) {
+                                                runAnimation(spr, "run");
+                                            }
+                                            spr.animator.fpsMultiplier = 1;
+                                        } else {
+                                            if (Math.abs(spr.savespeed * 1) > 5) {
+                                                if (!(spr.currentAnimation == "jog")) {
+                                                    runAnimation(spr, "jog");
+                                                }
+                                                spr.animator.fpsMultiplier =
+                                                    Math.abs(spr.savespeed) / 7.4;
+                                            } else {
+                                                if (!(spr.currentAnimation == "walk")) {
+                                                    runAnimation(spr, "walk");
+                                                }
+                                                spr.animator.fpsMultiplier =
+                                                    Math.abs(spr.savespeed) / 7.4;
+                                            }
+                                        }
+                                    }
+                                } else {
+                                    if (spr.pushing) {
+                                        if (!(spr.currentAnimation == "push")) {
+                                            runAnimation(spr, "push");
+                                        }
+                                        spr.crouchTimer = 0;
+                                        spr.lookupTimer = 0;
+                                        spr.animator.fpsMultiplier = 1;
+                                    } else {
+                                        if (spr.up) {
+                                            if (!(spr.currentAnimation == "lookup")) {
+                                                runAnimation(spr, "lookup");
+                                            }
+                                            spr.animator.fpsMultiplier = 1;
+                                            spr.speed = 0;
+                                            spr.crouchTimer = 0;
+                                            spr.lookupTimer += 1;
+                                            if (spr.lookupTimer > 150) {
+                                                spr.camY += (150 - spr.camY) / 15;
+                                            } else {
+                                                spr.camY += (0 - spr.camY) / 15;
+                                            }
+                                        } else {
+                                            if (spr.down) {
+                                                if (!(spr.currentAnimation == "duck")) {
+                                                    runAnimation(spr, "duck");
+                                                }
+                                                spr.animator.fpsMultiplier = 1;
+                                                spr.speed = 0;
+                                                spr.crouchTimer += 1;
+                                                spr.lookupTimer = 0;
+                                                if (spr.crouchTimer > 150) {
+                                                    spr.camY += (-150 - spr.camY) / 15;
+                                                } else {
+                                                    spr.camY += (0 - spr.camY) / 15;
+                                                }
+                                            } else {
+                                                if (!(spr.currentAnimation == "stand")) {
+                                                    runAnimation(spr, "stand");
+                                                }
+                                                spr.crouchTimer = 0;
+                                                spr.lookupTimer = 0;
+                                                spr.animator.fpsMultiplier = 1;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 async function movementEngine(
     spr,
@@ -1380,11 +1590,15 @@ async function movementEngine(
                                 }
                             }
                         }
+						spr.engineOffset -= 2;
                         if (!spr.onfloor) {
                             spr.rolling = false;
                         }
                         if (spr.onfloor) {
                             spr.lastGroundAngle = spr.engineAngle;
+                        }
+                        if (Math.abs(spr.speed) < 1.5) {
+                            spr.rolling = false;
                         }
 
                         var check = 0;
@@ -1407,151 +1621,13 @@ async function movementEngine(
                                 spr.rolling = true;
                             }
                         }
-                        if (Math.abs(spr.speed) < 1.5) {
-                            spr.rolling = false;
-                        }
-                        if (spr.tired) {
-                            if (!(spr.currentAnimation == "fly-tired")) {
-                                runAnimation(spr, "fly-tired");
-                            }
-                            spr.crouchTimer = 0;
-                            spr.lookupTimer = 0;
-                            spr.animator.fpsMultiplier = 1;
-                        } else {
-                            if (spr.flying) {
-                                if (!(spr.currentAnimation == "fly")) {
-                                    runAnimation(spr, "fly");
-                                }
-                                spr.crouchTimer = 0;
-                                spr.lookupTimer = 0;
-                                spr.animator.fpsMultiplier = 1;
-                            } else {
-                                if (spr.hurtanim) {
-                                    if (!(spr.currentAnimation == "hurt")) {
-                                        runAnimation(spr, "hurt");
-                                    }
-                                    spr.crouchTimer = 0;
-                                    spr.lookupTimer = 0;
-                                    spr.animator.fpsMultiplier = 1;
-                                } else {
-                                    if (spr.spring) {
-                                        if (!(spr.currentAnimation == "spring")) {
-                                            runAnimation(spr, "spring");
-                                        }
-                                        spr.crouchTimer = 0;
-                                        spr.lookupTimer = 0;
-                                    } else {
-                                        if (spr.skidding) {
-                                            if (!(spr.currentAnimation == "skid")) {
-                                                runAnimation(spr, "skid");
-                                            }
-                                            spr.crouchTimer = 0;
-                                            spr.lookupTimer = 0;
-                                            soundplay("skid");
-                                        } else {
-                                            if (spr.spindash) {
-                                                if (!(spr.currentAnimation == "spindash")) {
-                                                    runAnimation(spr, "spindash");
-                                                }
-                                                spr.crouchTimer = 0;
-                                                spr.lookupTimer = 0;
-                                                spr.animator.fpsMultiplier = 1;
-                                            } else {
-                                                if (spr.jumping || spr.rolling) {
-                                                    if (!(spr.currentAnimation == "roll")) {
-                                                        runAnimation(spr, "roll");
-                                                    }
-                                                    spr.crouchTimer = 0;
-                                                    spr.lookupTimer = 0;
-                                                    spr.animator.fpsMultiplier = 1;
-                                                } else {
-                                                    if (Math.abs(spr.savespeed) > 0.5) {
-                                                        spr.crouchTimer = 0;
-                                                        spr.lookupTimer = 0;
-                                                        if (Math.abs(spr.savespeed * 5) > 73) {
-                                                            if (!(spr.currentAnimation == "runfastest")) {
-                                                                runAnimation(spr, "runfastest");
-                                                            }
-                                                            spr.animator.fpsMultiplier = 1;
-                                                        } else {
-                                                            if (Math.abs(spr.savespeed * 1) > 8) {
-                                                                if (!(spr.currentAnimation == "run")) {
-                                                                    runAnimation(spr, "run");
-                                                                }
-                                                                spr.animator.fpsMultiplier = 1;
-                                                            } else {
-                                                                if (Math.abs(spr.savespeed * 1) > 5) {
-                                                                    if (!(spr.currentAnimation == "jog")) {
-                                                                        runAnimation(spr, "jog");
-                                                                    }
-                                                                    spr.animator.fpsMultiplier =
-                                                                        Math.abs(spr.savespeed) / 7.4;
-                                                                } else {
-                                                                    if (!(spr.currentAnimation == "walk")) {
-                                                                        runAnimation(spr, "walk");
-                                                                    }
-                                                                    spr.animator.fpsMultiplier =
-                                                                        Math.abs(spr.savespeed) / 7.4;
-                                                                }
-                                                            }
-                                                        }
-                                                    } else {
-                                                        if (spr.pushing) {
-                                                            if (!(spr.currentAnimation == "push")) {
-                                                                runAnimation(spr, "push");
-                                                            }
-                                                            spr.crouchTimer = 0;
-                                                            spr.lookupTimer = 0;
-                                                            spr.animator.fpsMultiplier = 1;
-                                                        } else {
-                                                            if (spr.up) {
-                                                                if (!(spr.currentAnimation == "lookup")) {
-                                                                    runAnimation(spr, "lookup");
-                                                                }
-                                                                spr.animator.fpsMultiplier = 1;
-                                                                spr.speed = 0;
-                                                                spr.crouchTimer = 0;
-                                                                spr.lookupTimer += 1;
-                                                                if (spr.lookupTimer > 150) {
-                                                                    spr.camY += (150 - spr.camY) / 15;
-                                                                } else {
-                                                                    spr.camY += (0 - spr.camY) / 15;
-                                                                }
-                                                            } else {
-                                                                if (spr.down) {
-                                                                    if (!(spr.currentAnimation == "duck")) {
-                                                                        runAnimation(spr, "duck");
-                                                                    }
-                                                                    spr.animator.fpsMultiplier = 1;
-                                                                    spr.speed = 0;
-                                                                    spr.crouchTimer += 1;
-                                                                    spr.lookupTimer = 0;
-                                                                    if (spr.crouchTimer > 150) {
-                                                                        spr.camY += (-150 - spr.camY) / 15;
-                                                                    } else {
-                                                                        spr.camY += (0 - spr.camY) / 15;
-                                                                    }
-                                                                } else {
-                                                                    if (!(spr.currentAnimation == "stand")) {
-                                                                        runAnimation(spr, "stand");
-                                                                    }
-                                                                    spr.crouchTimer = 0;
-                                                                    spr.lookupTimer = 0;
-                                                                    spr.animator.fpsMultiplier = 1;
-                                                                }
-                                                            }
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
                         if (!(spr.lookupTimer > 0 || spr.crouchTimer > 0)) {
                             spr.camY += (0 - spr.camY) / 15;
                         }
+                        if (spr.animated) {
+                            animateEngine(spr, spr2, checkcollide, soundplay);
+                        }
+                        gvbsonic.events.emit("engineanimate", spr, spr2, checkcollide, soundplay);
                         spr.pushing = false;
                         if (spr.onfloor) {
                             spr.spring = false;
@@ -1719,6 +1795,12 @@ async function movementEngine(
                         } else {
                             spr.gravity += -spr.gravityPower;
                         }
+                        if (spr.gravity > spr.maxGravity) {
+                            spr.gravity = spr.maxGravity;
+                        }
+                        if (spr.gravity < -spr.maxGravity) {
+                            spr.gravity = -spr.maxGravity;
+                        }
                         spr.direction -= 90;
                         moveSteps(Math.round(spr.gravity), spr);
                         spr.direction += 90;
@@ -1830,7 +1912,7 @@ async function movementEngine(
                             if (spr.controlLockTimer == 0) {
                                 // Should player slip and fall?
                                 if (
-                                    Math.abs(spr.speed) < 2.5 &&
+                                    Math.abs(spr.speed) < 2 &&
                                     x >= 35 &&
                                     x <= 326 &&
                                     x >= 69 &&
@@ -1859,7 +1941,7 @@ async function movementEngine(
 
                                     //This is less accurate, but it comes with a cost,
                                     //this fixes a weird issue where if the player spindashes, peelouts,
-                                    //or runs into a wall on the left side, the players character loses control.
+                                    //or runs into a wall on the left side, the players character loses control for a second.
 
                                     //I'm just decreasing this to 5 frames, cause idk if it can be used for 0 frames.
 
@@ -1912,24 +1994,19 @@ async function movementEngine(
                                 }
                             }
                         } else {
+							var rotspeed = 15;
+							if (!spr.onfloor) {
+								rotspeed = 5;
+							}
                             var fakeAngle = ang;
                             fakeAngle -= 90;
                             var fakeSmoothRot = spr.smoothrot;
                             fakeSmoothRot -= 90;
-                            if (Math.abs(spr.speed) > 12) {
-                                //Make sure we catch up with the character's real angle.
-                                spr.smoothrot =
-                                    scr_player_rotate_toward(
-                                        scr_wrap_angle(fakeAngle),
-                                        scr_wrap_angle(fakeSmoothRot),
-                                        10) + 90;
-                            } else {
-                                spr.smoothrot =
-                                    scr_player_rotate_toward(
-                                        scr_wrap_angle(fakeAngle),
-                                        scr_wrap_angle(fakeSmoothRot),
-                                        5) + 90;
-                            }
+                            spr.smoothrot =
+                                scr_player_rotate_toward(
+                                    scr_wrap_angle(fakeAngle),
+                                    scr_wrap_angle(fakeSmoothRot),
+                                    rotspeed) + 90;
                         }
                         if (spr.onfloor) {}
                         if (!spr.character.smoothAngles) {
@@ -1989,24 +2066,73 @@ async function movementEngine(
                             spr.worldy += spr.yVelocity;
                         }
                         if (spr.doscroll && spr.canscroll) {
-                            if (spr.y < -35) {
-                                spr2.y = -spr.worldy - 35;
+							var px = spr.x;
+							var py = spr.y-(spr.engineOffset+19);
+							var pwx = spr.worldx;
+							var pwy = spr.worldy-(spr.engineOffset+19);
+							
+                            var ycam = spr.camOnfloorTimerThingy;
+                            if (spr.onfloor) {
+                                spr.camOnfloorTimerThingy += (0 - spr.camOnfloorTimerThingy) / 7;
+                            } else {
+                                spr.camOnfloorTimerThingy += (32 - spr.camOnfloorTimerThingy) / 7;
                             }
-                            if (spr.y > 10) {
-                                spr2.y = -spr.worldy - -10;
+                            if (py + spr.verticalBorderOffset < -ycam) {
+                                var targetValue = -pwy - ycam;
+                                targetValue += spr.verticalBorderOffset;
+                                var camSpeed = targetValue - spr2.y;
+                                if (spr.maxCameraSpeed < camSpeed) {
+                                    camSpeed = spr.maxCameraSpeed;
+                                }
+                                if (camSpeed < -spr.maxCameraSpeed) {
+                                    camSpeed = -spr.maxCameraSpeed;
+                                }
+                                spr2.y += camSpeed;
                             }
-                            if (spr.x < -35) {
-                                spr2.x = -spr.worldx - 35;
+                            if (py + spr.verticalBorderOffset > ycam) {
+                                var targetValue = -pwy - -ycam;
+                                targetValue -= spr.verticalBorderOffset;
+                                var camSpeed = targetValue - spr2.y;
+                                if (spr.maxCameraSpeed < camSpeed) {
+                                    camSpeed = spr.maxCameraSpeed;
+                                }
+                                if (camSpeed < -spr.maxCameraSpeed) {
+                                    camSpeed = -spr.maxCameraSpeed;
+                                }
+                                spr2.y += camSpeed;
                             }
-                            if (spr.x > 0) {
-                                spr2.x = -spr.worldx;
+                            if (px + spr.horizontalBorderOffset <  - (spr.camBorderLeft * spr.borderBoxScale)) {
+                                var targetValue = -pwx - (spr.camBorderLeft * spr.borderBoxScale);
+                                targetValue -= spr.horizontalBorderOffset;
+                                var camSpeed = targetValue - spr2.x;
+                                if (spr.maxCameraSpeed < camSpeed) {
+                                    camSpeed = spr.maxCameraSpeed;
+                                }
+                                if (camSpeed < -spr.maxCameraSpeed) {
+                                    camSpeed = -spr.maxCameraSpeed;
+                                }
+                                spr2.x += camSpeed;
                             }
-                            if (spr2.x > 0) {
-                                spr2.x = 0;
+                            if (px + spr.horizontalBorderOffset > (spr.camBorderRight * spr.borderBoxScale)) {
+                                var targetValue = -pwx -  - (spr.camBorderRight * spr.borderBoxScale);
+                                targetValue -= spr.horizontalBorderOffset;
+                                var camSpeed = targetValue - spr2.x;
+                                if (spr.maxCameraSpeed < camSpeed) {
+                                    camSpeed = spr.maxCameraSpeed;
+                                }
+                                if (camSpeed < -spr.maxCameraSpeed) {
+                                    camSpeed = -spr.maxCameraSpeed;
+                                }
+                                spr2.x += camSpeed;
                             }
                             if (!levelinfo.disableYLock) {
                                 if (spr2.y < 0) {
                                     spr2.y = 0;
+                                }
+                            }
+                            if (!levelinfo.disableXLock) {
+                                if (spr2.x > 0) {
+                                    spr2.x = 0;
                                 }
                             }
                             spr.x = spr2.x + spr.worldx;
@@ -3029,6 +3155,24 @@ window.startEngine = async function startEngine(
     hudrings.bold = true;
     hudrings.font = "pixel";
     hudrings.text = "RINGS: 0";
+    var hudrings2 = new window.GRender.Sprite(0, 0, null, 32, 40);
+    var ringscvs = document.createElement("canvas");
+    window.drawFont(ringscvs, "RINGS", window.files.teFonts.gold);
+    hudrings2.image = window.files.hud.rings;
+    hudrings2.width = hudrings2.image.width;
+    hudrings2.height = hudrings2.image.height;
+    hudrings2.x = ((600 / -2) + (hudrings2.width / 2)) + 10;
+    hudrings2.y = (hudrings2.height / 2) + (360 / -2) + 10;
+
+    var hudringscount = new window.GRender.Sprite(0, 0, null, 32, 40);
+    var countcvs = document.createElement("canvas");
+    window.drawFont(countcvs, "0", window.files.teFonts.silver);
+    hudringscount.image = countcvs;
+    hudringscount.width = countcvs.width;
+    hudringscount.height = countcvs.height;
+    hudringscount.x = hudrings2.x + hudringscount.width;
+    hudringscount.y = hudrings2.y;
+
     var debug1 = new window.GRender.TextSprite(-275, -120, null, 32, 40);
     debug1.color = "white";
     debug1.bold = true;
@@ -3054,6 +3198,8 @@ window.startEngine = async function startEngine(
     sprites.push(bgsprite);
     sprites.push(sonic);
     sprites.push(hudrings);
+    sprites.push(hudrings2);
+    sprites.push(hudringscount);
 
     sprites.push(debug1);
     sprites.push(debug2);
@@ -3233,7 +3379,7 @@ window.startEngine = async function startEngine(
             }
         }
     };
-   gvbsonic.handleKeyUp = function (e) {
+    gvbsonic.handleKeyUp = function (e) {
         if (e.key == "ArrowLeft") {
             sonic.left = false;
         }
@@ -3301,7 +3447,7 @@ window.startEngine = async function startEngine(
                 if (ringanimation > 100) {
                     ringanimation = 0;
                 }
-                ringanimation += 10;
+                ringanimation += 20;
                 if (ringanimation > 50) {
                     hudrings.color = "red";
                 } else {
@@ -3311,6 +3457,20 @@ window.startEngine = async function startEngine(
                 hudrings.color = "yellow";
             }
             hudrings.text = `RINGS: ${sonic.rings}`;
+            hudrings.trs = 0;
+
+            window.drawFont(countcvs, sonic.rings, window.files.teFonts.silver);
+            hudringscount.width = countcvs.width;
+            hudringscount.height = countcvs.height;
+            hudringscount.x = hudrings2.x + (hudrings2.width / 2) + 14 + (hudringscount.width / 2);
+            hudringscount.y = hudrings2.y;
+
+            if (hudrings.color == "red") {
+                hudrings2.image = window.files.hud.redRings;
+            } else {
+                hudrings2.image = window.files.hud.rings;
+            }
+
             enimies = [];
             enimies.length = 0;
             var nobgsprites = [];
@@ -3428,6 +3588,7 @@ window.startEngine = async function startEngine(
                     sprites.push(ospr);
                 }
             }
+            await gvbsonic.events.emit("gametick", sprites);
             await window.tickAsync60FPS();
         } else {
             await window.tickAsync60FPS();

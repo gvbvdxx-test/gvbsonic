@@ -1,0 +1,358 @@
+{
+	"spriteSheetWidth": 114,
+	"spriteSheetHeight": 79,
+	"sprites": [
+		{
+			"x": 0,
+			"y": 0,
+			"width": 9,
+			"height": 14,
+			"name": "0",
+			"image": {}
+		},
+		{
+			"x": 10,
+			"y": 0,
+			"width": 6,
+			"height": 14,
+			"name": "1",
+			"image": {}
+		},
+		{
+			"x": 17,
+			"y": 0,
+			"width": 9,
+			"height": 14,
+			"name": "2",
+			"image": {}
+		},
+		{
+			"x": 27,
+			"y": 0,
+			"width": 9,
+			"height": 14,
+			"name": "3",
+			"image": {}
+		},
+		{
+			"x": 37,
+			"y": 0,
+			"width": 9,
+			"height": 14,
+			"name": "4",
+			"image": {}
+		},
+		{
+			"x": 47,
+			"y": 0,
+			"width": 9,
+			"height": 14,
+			"name": "5",
+			"image": {}
+		},
+		{
+			"x": 57,
+			"y": 0,
+			"width": 9,
+			"height": 14,
+			"name": "6",
+			"image": {}
+		},
+		{
+			"x": 67,
+			"y": 0,
+			"width": 9,
+			"height": 14,
+			"name": "7",
+			"image": {}
+		},
+		{
+			"x": 77,
+			"y": 0,
+			"width": 9,
+			"height": 14,
+			"name": "8",
+			"image": {}
+		},
+		{
+			"x": 87,
+			"y": 0,
+			"width": 9,
+			"height": 14,
+			"name": "9",
+			"image": {}
+		},
+		{
+			"x": 97,
+			"y": 0,
+			"width": 9,
+			"height": 14,
+			"name": "a",
+			"image": {}
+		},
+		{
+			"x": 0,
+			"y": 16,
+			"width": 5,
+			"height": 14,
+			"name": "apostrophe",
+			"image": {}
+		},
+		{
+			"x": 6,
+			"y": 16,
+			"width": 9,
+			"height": 14,
+			"name": "b",
+			"image": {}
+		},
+		{
+			"x": 16,
+			"y": 16,
+			"width": 9,
+			"height": 14,
+			"name": "c",
+			"image": {}
+		},
+		{
+			"x": 26,
+			"y": 16,
+			"width": 5,
+			"height": 15,
+			"name": "colon",
+			"image": {}
+		},
+		{
+			"x": 32,
+			"y": 16,
+			"width": 5,
+			"height": 15,
+			"name": "comma",
+			"image": {}
+		},
+		{
+			"x": 38,
+			"y": 16,
+			"width": 9,
+			"height": 14,
+			"name": "d",
+			"image": {}
+		},
+		{
+			"x": 48,
+			"y": 16,
+			"width": 9,
+			"height": 14,
+			"name": "e",
+			"image": {}
+		},
+		{
+			"x": 58,
+			"y": 16,
+			"width": 5,
+			"height": 15,
+			"name": "exclamation",
+			"image": {}
+		},
+		{
+			"x": 64,
+			"y": 16,
+			"width": 9,
+			"height": 14,
+			"name": "f",
+			"image": {}
+		},
+		{
+			"x": 74,
+			"y": 16,
+			"width": 9,
+			"height": 14,
+			"name": "g",
+			"image": {}
+		},
+		{
+			"x": 84,
+			"y": 16,
+			"width": 10,
+			"height": 14,
+			"name": "h",
+			"image": {}
+		},
+		{
+			"x": 0,
+			"y": 32,
+			"width": 5,
+			"height": 14,
+			"name": "i",
+			"image": {}
+		},
+		{
+			"x": 6,
+			"y": 32,
+			"width": 9,
+			"height": 14,
+			"name": "j",
+			"image": {}
+		},
+		{
+			"x": 16,
+			"y": 32,
+			"width": 10,
+			"height": 14,
+			"name": "k",
+			"image": {}
+		},
+		{
+			"x": 27,
+			"y": 32,
+			"width": 9,
+			"height": 14,
+			"name": "l",
+			"image": {}
+		},
+		{
+			"x": 37,
+			"y": 32,
+			"width": 10,
+			"height": 14,
+			"name": "m",
+			"image": {}
+		},
+		{
+			"x": 48,
+			"y": 32,
+			"width": 9,
+			"height": 14,
+			"name": "minus",
+			"image": {}
+		},
+		{
+			"x": 58,
+			"y": 32,
+			"width": 11,
+			"height": 14,
+			"name": "n",
+			"image": {}
+		},
+		{
+			"x": 70,
+			"y": 32,
+			"width": 9,
+			"height": 14,
+			"name": "o",
+			"image": {}
+		},
+		{
+			"x": 80,
+			"y": 32,
+			"width": 9,
+			"height": 14,
+			"name": "p",
+			"image": {}
+		},
+		{
+			"x": 90,
+			"y": 32,
+			"width": 5,
+			"height": 15,
+			"name": "period",
+			"image": {}
+		},
+		{
+			"x": 96,
+			"y": 32,
+			"width": 11,
+			"height": 14,
+			"name": "q",
+			"image": {}
+		},
+		{
+			"x": 0,
+			"y": 48,
+			"width": 9,
+			"height": 15,
+			"name": "question",
+			"image": {}
+		},
+		{
+			"x": 10,
+			"y": 48,
+			"width": 9,
+			"height": 15,
+			"name": "quotation",
+			"image": {}
+		},
+		{
+			"x": 20,
+			"y": 48,
+			"width": 9,
+			"height": 14,
+			"name": "r",
+			"image": {}
+		},
+		{
+			"x": 30,
+			"y": 48,
+			"width": 9,
+			"height": 14,
+			"name": "s",
+			"image": {}
+		},
+		{
+			"x": 40,
+			"y": 48,
+			"width": 9,
+			"height": 14,
+			"name": "t",
+			"image": {}
+		},
+		{
+			"x": 50,
+			"y": 48,
+			"width": 9,
+			"height": 14,
+			"name": "u",
+			"image": {}
+		},
+		{
+			"x": 60,
+			"y": 48,
+			"width": 10,
+			"height": 14,
+			"name": "v",
+			"image": {}
+		},
+		{
+			"x": 71,
+			"y": 48,
+			"width": 10,
+			"height": 14,
+			"name": "w",
+			"image": {}
+		},
+		{
+			"x": 82,
+			"y": 48,
+			"width": 11,
+			"height": 14,
+			"name": "x",
+			"image": {}
+		},
+		{
+			"x": 94,
+			"y": 48,
+			"width": 9,
+			"height": 14,
+			"name": "y",
+			"image": {}
+		},
+		{
+			"x": 104,
+			"y": 48,
+			"width": 9,
+			"height": 14,
+			"name": "z",
+			"image": {}
+		}
+	]
+}

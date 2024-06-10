@@ -1,0 +1,134 @@
+{
+    "walk": {
+        "frames": [
+            "jog1",
+			"jog2",
+			"jog3",
+			"jog4",
+			"jog5",
+			"jog6"
+        ],
+        "fps": 20,
+        "loop": true
+    },
+    "jog": {
+        "frames": [
+            "run1",
+			"run2",
+			"run3",
+			"run4",
+			"run5",
+			"run6",
+			"run7",
+			"run8"
+        ],
+        "fps": 30,
+        "loop": true
+    },
+    "hurt": {
+        "frames": [
+            "stunned"
+        ],
+        "fps": 25,
+        "loop": true
+    },
+    "skid": {
+        "frames": [
+            "brake1",
+			"brake2"
+        ],
+        "fps": 2,
+        "loop": true
+    },
+    "spindash": {
+        "frames": [
+            "spindash1",
+			"spindash2",
+			"spindash3",
+			"spindash4"
+        ],
+        "fps": 30,
+        "loop": true
+    },
+    "died": {
+        "frames": [
+            "death"
+        ],
+        "fps": 60,
+        "loop": true
+    },
+    "spring": {
+        "frames": [
+            "bounce"
+        ],
+        "fps": 25,
+        "loop": true
+    },
+    "duck": {
+        "frames": [
+			"duck1",
+            "duck2"
+        ],
+        "fps": 12,
+        "loop": false
+    },
+    "lookup": {
+        "frames": [
+            "look-above1",
+            "look-above2"
+        ],
+        "fps": 12,
+        "loop": false
+    },
+    "stand": {
+        "frames": [
+            "idle"
+        ],
+        "fps": 60,
+        "loop": true
+    },
+    "run": {
+        "frames": [
+            "dash1",
+			"dash2",
+			"dash3",
+			"dash4"
+        ],
+        "fps": 15,
+        "loop": true
+    },
+    "runfastest": {
+        "frames": [
+            "peel1",
+			"peel2",
+			"peel3",
+			"peel4"
+        ],
+        "fps": 20,
+        "loop": true
+    },
+    "push": {
+        "frames": [
+            "pushing1",
+			"pushing2",
+			"pushing3",
+			"pushing4"
+        ],
+        "fps": 3,
+        "loop": true
+    },
+    "roll": {
+        "frames": [
+            "spinning1",
+			"blur",
+			"spinning2",
+			"blur",
+			"spinning3",
+			"blur",
+			"spinning4",
+			"blur"
+        ],
+        "fps": 30,
+        "loop": true
+    }
+}

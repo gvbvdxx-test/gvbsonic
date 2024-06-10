@@ -1,0 +1,390 @@
+{
+	"spriteSheetWidth": 605,
+	"spriteSheetHeight": 233,
+	"sprites": [
+		{
+			"x": 0,
+			"y": 0,
+			"width": 54,
+			"height": 47,
+			"name": "sink",
+			"image": {}
+		},
+		{
+			"x": 55,
+			"y": 0,
+			"width": 54,
+			"height": 47,
+			"name": "death",
+			"image": {}
+		},
+		{
+			"x": 110,
+			"y": 0,
+			"width": 54,
+			"height": 40,
+			"name": "duck2",
+			"image": {}
+		},
+		{
+			"x": 165,
+			"y": 0,
+			"width": 54,
+			"height": 40,
+			"name": "duck1",
+			"image": {}
+		},
+		{
+			"x": 220,
+			"y": 0,
+			"width": 54,
+			"height": 40,
+			"name": "look-above2",
+			"image": {}
+		},
+		{
+			"x": 275,
+			"y": 0,
+			"width": 54,
+			"height": 40,
+			"name": "look-above1",
+			"image": {}
+		},
+		{
+			"x": 330,
+			"y": 0,
+			"width": 54,
+			"height": 40,
+			"name": "spindash4",
+			"image": {}
+		},
+		{
+			"x": 385,
+			"y": 0,
+			"width": 54,
+			"height": 40,
+			"name": "spindash3",
+			"image": {}
+		},
+		{
+			"x": 440,
+			"y": 0,
+			"width": 54,
+			"height": 40,
+			"name": "spindash2",
+			"image": {}
+		},
+		{
+			"x": 495,
+			"y": 0,
+			"width": 54,
+			"height": 40,
+			"name": "spindash1",
+			"image": {}
+		},
+		{
+			"x": 550,
+			"y": 0,
+			"width": 54,
+			"height": 40,
+			"name": "peel4",
+			"image": {}
+		},
+		{
+			"x": 0,
+			"y": 48,
+			"width": 54,
+			"height": 40,
+			"name": "peel3",
+			"image": {}
+		},
+		{
+			"x": 55,
+			"y": 48,
+			"width": 54,
+			"height": 40,
+			"name": "peel2",
+			"image": {}
+		},
+		{
+			"x": 110,
+			"y": 48,
+			"width": 54,
+			"height": 40,
+			"name": "peel1",
+			"image": {}
+		},
+		{
+			"x": 165,
+			"y": 48,
+			"width": 54,
+			"height": 40,
+			"name": "dash4",
+			"image": {}
+		},
+		{
+			"x": 220,
+			"y": 48,
+			"width": 54,
+			"height": 40,
+			"name": "dash3",
+			"image": {}
+		},
+		{
+			"x": 275,
+			"y": 48,
+			"width": 54,
+			"height": 40,
+			"name": "dash2",
+			"image": {}
+		},
+		{
+			"x": 330,
+			"y": 48,
+			"width": 54,
+			"height": 40,
+			"name": "dash1",
+			"image": {}
+		},
+		{
+			"x": 385,
+			"y": 48,
+			"width": 54,
+			"height": 40,
+			"name": "run8",
+			"image": {}
+		},
+		{
+			"x": 440,
+			"y": 48,
+			"width": 54,
+			"height": 40,
+			"name": "run7",
+			"image": {}
+		},
+		{
+			"x": 495,
+			"y": 48,
+			"width": 54,
+			"height": 40,
+			"name": "run6",
+			"image": {}
+		},
+		{
+			"x": 550,
+			"y": 48,
+			"width": 54,
+			"height": 40,
+			"name": "run5",
+			"image": {}
+		},
+		{
+			"x": 0,
+			"y": 96,
+			"width": 54,
+			"height": 40,
+			"name": "run4",
+			"image": {}
+		},
+		{
+			"x": 55,
+			"y": 96,
+			"width": 54,
+			"height": 40,
+			"name": "run3",
+			"image": {}
+		},
+		{
+			"x": 110,
+			"y": 96,
+			"width": 54,
+			"height": 40,
+			"name": "run2",
+			"image": {}
+		},
+		{
+			"x": 165,
+			"y": 96,
+			"width": 54,
+			"height": 40,
+			"name": "run1",
+			"image": {}
+		},
+		{
+			"x": 220,
+			"y": 96,
+			"width": 54,
+			"height": 40,
+			"name": "signpost",
+			"image": {}
+		},
+		{
+			"x": 275,
+			"y": 96,
+			"width": 54,
+			"height": 40,
+			"name": "stunned",
+			"image": {}
+		},
+		{
+			"x": 330,
+			"y": 96,
+			"width": 54,
+			"height": 40,
+			"name": "brake2",
+			"image": {}
+		},
+		{
+			"x": 385,
+			"y": 96,
+			"width": 54,
+			"height": 40,
+			"name": "brake1",
+			"image": {}
+		},
+		{
+			"x": 440,
+			"y": 96,
+			"width": 54,
+			"height": 40,
+			"name": "pushing4",
+			"image": {}
+		},
+		{
+			"x": 495,
+			"y": 96,
+			"width": 54,
+			"height": 40,
+			"name": "pushing3",
+			"image": {}
+		},
+		{
+			"x": 550,
+			"y": 96,
+			"width": 54,
+			"height": 40,
+			"name": "pushing2",
+			"image": {}
+		},
+		{
+			"x": 0,
+			"y": 144,
+			"width": 54,
+			"height": 40,
+			"name": "pushing1",
+			"image": {}
+		},
+		{
+			"x": 55,
+			"y": 144,
+			"width": 33,
+			"height": 33,
+			"name": "blur",
+			"image": {}
+		},
+		{
+			"x": 89,
+			"y": 144,
+			"width": 33,
+			"height": 33,
+			"name": "spinning4",
+			"image": {}
+		},
+		{
+			"x": 123,
+			"y": 144,
+			"width": 33,
+			"height": 33,
+			"name": "spinning3",
+			"image": {}
+		},
+		{
+			"x": 157,
+			"y": 144,
+			"width": 33,
+			"height": 33,
+			"name": "spinning2",
+			"image": {}
+		},
+		{
+			"x": 191,
+			"y": 144,
+			"width": 33,
+			"height": 33,
+			"name": "spinning1",
+			"image": {}
+		},
+		{
+			"x": 225,
+			"y": 144,
+			"width": 54,
+			"height": 45,
+			"name": "bounce",
+			"image": {}
+		},
+		{
+			"x": 280,
+			"y": 144,
+			"width": 54,
+			"height": 40,
+			"name": "gasp-air",
+			"image": {}
+		},
+		{
+			"x": 335,
+			"y": 144,
+			"width": 54,
+			"height": 40,
+			"name": "jog6",
+			"image": {}
+		},
+		{
+			"x": 390,
+			"y": 144,
+			"width": 54,
+			"height": 40,
+			"name": "jog5",
+			"image": {}
+		},
+		{
+			"x": 445,
+			"y": 144,
+			"width": 54,
+			"height": 40,
+			"name": "jog4",
+			"image": {}
+		},
+		{
+			"x": 0,
+			"y": 192,
+			"width": 54,
+			"height": 40,
+			"name": "jog3",
+			"image": {}
+		},
+		{
+			"x": 55,
+			"y": 192,
+			"width": 54,
+			"height": 40,
+			"name": "jog2",
+			"image": {}
+		},
+		{
+			"x": 110,
+			"y": 192,
+			"width": 54,
+			"height": 40,
+			"name": "jog1",
+			"image": {}
+		},
+		{
+			"x": 165,
+			"y": 192,
+			"width": 54,
+			"height": 40,
+			"name": "idle",
+			"image": {}
+		}
+	]
+}
